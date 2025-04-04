@@ -136,6 +136,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * Font Awesome
 
+---
+
+### Testing
+
+#### HTML Test
+#### CSS Test
+#### Lighthouse Test
+
+---
 
 ### Known Bugs
-
