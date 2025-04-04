@@ -2,7 +2,8 @@
 
 ## About Project
 
-(Write your brief description here)
+This is a project portflio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do.
+
 
 ## User Stories
 
@@ -68,3 +69,21 @@ So that I can appreciate their skills and experience.
 - A simple, jargon-free introduction.
 - Brief descriptions of projects with real-world applications.
 - A visually engaging portfolio with screenshots or demos.
+
+
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* HTML5
+* CSS5
+* Bootstrap
+
+#### Styling
+
+* Font Awesome
+
+
+### Known Bugs
+
