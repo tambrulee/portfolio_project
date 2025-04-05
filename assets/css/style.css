@@ -8,9 +8,21 @@
 
 p{
     font-family: Avenir, sans-serif;
+    color: white;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #hero-img{
     background: url("../images/About.png") no-repeat center center/cover;
+    height: 300px;
+}
+
+#hero-txt{
+    background: #191a2084;
     height: 300px;
 }
