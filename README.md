@@ -1,16 +1,18 @@
-# Welcome to my Portfolio Project
+# Portfolio Project
+
+<img src="assets/images/ChatGPT Image Apr 5, 2025, 12_19_29 PM.png" alt="Welcome to my portfolio project">
+
+---
 
 ## About Project
 
--Here I want a responsive website photo as per the one shown in tutorial
-
 This is a project portflio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do.
 
-### Pages
+---
 
+## Pages
 
-
-#### 1. Home / About Me
+### 1. Home / About Me
 
 This is your first impression – it should feel personal, confident, and inviting.
 
@@ -27,7 +29,7 @@ This is your first impression – it should feel personal, confident, and inviti
 
 ---
 
-#### 2. Projects / Portfolio
+### 2. Projects / Portfolio
 
 This is where the magic happens – your work lives here.
 
@@ -45,7 +47,7 @@ This is where the magic happens – your work lives here.
 
 ---
 
-#### 3. Contact / Connect
+### 3. Contact / Connect
 
 A quick, simple way for people to reach you or connect further.
 
@@ -59,9 +61,9 @@ A quick, simple way for people to reach you or connect further.
 - Footer with your name and year
 
 
-## User Stories
+### User Stories
 
-### 1. Hiring Manager Reviewing My Portfolio
+#### 1. Hiring Manager Reviewing My Portfolio
 
 **As a hiring manager**,  
 I want to quickly understand the candidate’s technical skills, projects, and experience,  
@@ -74,7 +76,7 @@ So that I can determine if they are a good fit for the role.
 
 ---
 
-### 2. Senior Developer Assessing My Code
+#### 2. Senior Developer Assessing My Code
 
 **As a senior developer**,  
 I want to review clean, well-structured code from the candidate’s projects,  
@@ -87,7 +89,7 @@ So that I can assess their coding ability and problem-solving skills.
 
 ---
 
-### 3. Recruiter Looking for a Junior Developer
+#### 3. Recruiter Looking for a Junior Developer
 
 **As a recruiter**,  
 I want to quickly scan the candidate’s experience and projects,  
@@ -100,7 +102,7 @@ So that I can decide whether to reach out for an interview.
 
 ---
 
-### 4. Fellow Developer Looking for Collaboration
+#### 4. Fellow Developer Looking for Collaboration
 
 **As a fellow developer**,  
 I want to see if the candidate has open-source projects or shared interests,  
@@ -113,7 +115,7 @@ So that I can reach out for potential collaboration.
 
 ---
 
-### 5. Non-Technical Visitor Curious About My Work
+#### 5. Non-Technical Visitor Curious About My Work
 
 **As a non-technical visitor**,  
 I want to understand what the candidate does without needing deep technical knowledge,  
@@ -124,9 +126,21 @@ So that I can appreciate their skills and experience.
 - Brief descriptions of projects with real-world applications.
 - A visually engaging portfolio with screenshots or demos.
 
-### Wire Frames
+---
 
-### Built With
+## Wire Frames
+
+This will contain a link to a PDF which has my Wireframes in it. There will also be a talk through of my justifications for doing everything.
+
+The theme stays the same throughout - burger menu to dropdown on a transparent backgroud when hovered over on pc - otherwise on click for mobile/tablet devices. Actually second thoughts not necessary...
+
+I might create my nav and footer using CSS because I want more creative control over fonts and colours but still may just use Bootstrap for responsiveness. 
+
+Font awesome for icons and may need to use Google Fonts for Bebas Nue and Avenir it will fall back onto standard sans-serif if not available/compatible.
+
+---
+
+## Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -140,17 +154,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ---
 
-### Testing
+## Testing
 
-#### HTML Test
-#### CSS Test
-#### Lighthouse Test
-
----
-
-### Known Bugs
-
+### HTML Test
+### CSS Test
+### Lighthouse Test
 
 ---
 
-### Attribution
+## Known Bugs
+
+
+---
+
+## Attribution
