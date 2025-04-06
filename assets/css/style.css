@@ -11,17 +11,41 @@ p{
     color: white;
 }
 
+/*H2 Elements*/
+
 h2{
     color: white;
     text-align: center;
     padding-top: 10px;
 }
 
+/*Hero Elements*/
+
+/*Main image on page*/
 #hero-img{
     background: url("../images/About.png") no-repeat center center/cover;
     height: 300px;
 }
 
+/*Badges*/
+
+/*This controls the layout of the badge column container*/
+.col{
+    padding: 10px 50px;
+    
+}
+
+/*This controls the styling and position of the badges*/
+#badges{
+    position: absolute;
+    top: 312px;
+    padding: 10px 30%;
+    width: 100%;
+    background-color: #8fa0a689;
+    color: white;
+}
+
+/*Main body of text under hero image*/
 #hero-txt{
     background: url('../images/main\ img_bg.png')no-repeat center center/cover;
     height: 800px;
@@ -29,7 +53,7 @@ h2{
     text-align: justify;
     letter-spacing: 0.1px;
 }
-
+/*Adds a layer on top of the hero-text*/
 #smokescreen{
     position: absolute;
     background-color: #3d4143ae;
@@ -43,23 +67,13 @@ h2{
     
 }
 
+/*Footer*/
+
 #footer-text{
     font-family: Bebas Neue, sans-serif;
 }
 
 
-.col{
-    padding: 10px 50px;
-    
-}
 
-#badges{
-    position: absolute;
-    top: 312px;
-    padding: 10px 30%;
-    width: 100%;
-    background-color: #8fa0a689;
-    color: white;
-}
 
 /* Blue colour you like: #4E8C98; */
