@@ -73,40 +73,43 @@ h2{
 
 /* Media query: landscape phones and larger (576px and up) */
 @media screen and (min-width: 576px) {
+
+/*Increases brand size on nav*/
+.navbar-brand{
+    font-size: 2rem;
+}
+
+/*Increases hero image siez*/
+
     #hero-img{
         top: 100px;
         min-height: 600px;
     }
 
+/*Resizes badge container*/
     #badges{
         height: 90px;
         top: 585px;
         padding: 20px 25%;
     }
-
+/*Resize badge icons*/
      #badges i {
         font-size: 3rem; /* Or any size you prefer */  
       }
-    
+/*Adds spaces between badges*/    
       .col-1{
         padding: 0 30px;
       }
  
-    .navbar-brand{
-        font-size: 2rem;
-    }
 
+/*Increases footer text size*/
     #footer-text {
         font-size: 2rem;
     }
-
+/*Increases footer badges size*/
     footer i {
         font-size: 2rem; /* Or any size you prefer */  
         padding: 0 20px;
     }
-
-   
-
-    
 
 }
