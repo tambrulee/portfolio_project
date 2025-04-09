@@ -25,17 +25,10 @@ h2{
 #hero-img{
     background: url("../images/About.png") no-repeat center center/cover;
     min-height: 300px;
+    
 }
 
 /*Badges*/
-
-/*This controls the layout of the badge column container*/
-.col{
-    padding: 10px 50px;
-    max-width: 100%;
-    
-    
-}
 
 /*This controls the styling and position of the badges*/
 #badges{
@@ -51,8 +44,7 @@ h2{
 #hero-txt{
     background: url('../images/main\ img_bg.png')no-repeat center center/cover;
     position: relative;
-
-    padding: 20px 2rem;
+    padding: 50px 2rem;
     text-align: justify;
     letter-spacing: 0.1px;
 }
@@ -65,7 +57,7 @@ h2{
     left: 0;
     padding: 20px 2rem;
     text-align: justify;
-    letter-spacing: 0.1px;
+    letter-spacing: 0px;
     
 }
 
@@ -79,8 +71,42 @@ h2{
 /* Blue colour you like: #4E8C98; */
 
 
-/*For screens over width of 576px*/
-@media only screen and (max-width: 576px) {
+/* Media query: landscape phones and larger (576px and up) */
+@media screen and (min-width: 576px) {
+    #hero-img{
+        top: 100px;
+        min-height: 600px;
+    }
+
+    #badges{
+        height: 90px;
+        top: 585px;
+        padding: 20px 25%;
+    }
+
+     #badges i {
+        font-size: 3rem; /* Or any size you prefer */  
+      }
+    
+      .col-1{
+        padding: 0 30px;
+      }
+ 
+    .navbar-brand{
+        font-size: 2rem;
+    }
+
+    #footer-text {
+        font-size: 2rem;
+    }
+
+    footer i {
+        font-size: 2rem; /* Or any size you prefer */  
+        padding: 0 20px;
+    }
+
+   
+
     
 
-  }
+}
