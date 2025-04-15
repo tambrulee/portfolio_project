@@ -113,3 +113,15 @@ h2{
     }
 
 }
+
+/* Media query: landscape phones and larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    #badges{
+        position: relative;
+        top: 0;
+        min-width: 100%;
+        
+    }
+
+}
