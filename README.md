@@ -1,6 +1,6 @@
 # Portfolio Project
 
-<img src="assets/images/ChatGPT Image Apr 5, 2025, 12_19_29 PM.png" alt="Welcome to my portfolio project">
+<img src="../Portfolio_Project/assets/images/README.png" alt="Welcome to my portfolio project">
 
 ---
 
