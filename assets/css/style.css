@@ -81,6 +81,10 @@ h2{
     min-height: 400px; 
 }
 
+.accordion-body{
+    font-family: Avenir, sans-serif;
+}
+
 /* Media query: landscape phones and larger (576px and up) */
 @media screen and (min-width: 576px) {
 
