@@ -71,8 +71,11 @@ h2{
 /*Projects Page*/
 #hero-img-projects{
     background: url("../images/Projects.png") no-repeat center center/cover;
-    min-height: 400px;
-    
+    min-height: 400px; 
+}
+
+#navbar-example2{
+    background-color: #3d4143ae;
 }
 
 /*Contact Page*/
