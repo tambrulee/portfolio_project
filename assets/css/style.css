@@ -76,7 +76,29 @@ h2{
 
 #navbar-example2{
     background-color: #3d4143ae;
+    color: white;
 }
+
+#nav-link-project, #navbar-title{
+    color: white;
+}
+
+#nav-button-project, #navbar-dropdown-project{
+    background-color: #3d4143;
+    color: white;
+}
+
+/* Change active nav-pills link background and text color */
+.nav-pills .nav-link.active {
+    background-color: #333333; /* your custom background color */
+    color: #ffffff !important; /* your custom text color */
+  }
+
+/* Style dropdown items when active */
+.dropdown-menu .dropdown-item.active {
+    background-color: #333333;
+    color: #ffffff;
+  }
 
 /*Contact Page*/
 #hero-img-contact{
