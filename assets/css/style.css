@@ -68,8 +68,18 @@ h2{
 }
 
 
-/* Blue colour you like: #4E8C98; */
+/*Projects Page*/
+#hero-img-projects{
+    background: url("../images/Projects.png") no-repeat center center/cover;
+    min-height: 400px;
+    
+}
 
+/*Contact Page*/
+#hero-img-contact{
+    background: url("../images/Contact.png") no-repeat center center/cover;
+    min-height: 400px; 
+}
 
 /* Media query: landscape phones and larger (576px and up) */
 @media screen and (min-width: 576px) {
