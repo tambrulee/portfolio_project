@@ -8,6 +8,12 @@
 
 This is a project portflio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do.
 
+There is a running theme in the project, instead of using a real photo/headshot of myself I decided to use an Anime photo whcih I generated using Dalio in ChatGPT. Alongside developing webpages, I'd like to showcase some of the work I do in terms of not just coding by also design. I want to stand out amongst other developers as having flair but also show a bit of my own personality. 
+
+To generate the AI images I asked ChatGPT to convert a real life photo of myself and then add the relevant text for each parts of the website:
+
+<img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
+
 ---
 
 ## Pages
