@@ -110,6 +110,11 @@ h2{
     font-family: Avenir, sans-serif;
 }
 
+.accordian-item{
+    background-color: #333333;
+    color: #ffffff;
+}
+
 /* Media query: landscape phones and larger (576px and up) */
 @media screen and (min-width: 576px) {
 
