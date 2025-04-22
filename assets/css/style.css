@@ -79,6 +79,21 @@ h2{
     color: white;
 }
 
+#navbar-example2 h4{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+#navbar-example2 a{
+    font-size: 1.5rem;
+}
+
+#project-links{
+    color: white;
+    margin-bottom: 100px;
+}
+
+
 #nav-link-project, #navbar-title{
     color: white;
 }
