@@ -74,27 +74,27 @@ h2{
     min-height: 400px; 
 }
 
-#navbar-example2{
+.navbar-example2{
     background-color: #3d4143ae;
     color: white;
 }
 
-#navbar-example2 h4{
+.navbar-example2 h4{
     margin-top: 20px;
     font-size: 2rem;
 }
 
-#navbar-example2 a{
+.navbar-example2 a{
     font-size: 1.5rem;
 }
 
-#project-links{
+.project-links{
     color: white;
     margin-bottom: 100px;
 }
 
 
-#nav-link-project, #navbar-title{
+.nav-link-projects, #navbar-title{
     color: white;
 }
 
