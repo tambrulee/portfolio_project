@@ -25,6 +25,60 @@ h2{
     font-size: 1.5rem;
 }
 
+/*This will be under the text below the hero image on each page*/
+#hero-txt{
+    background: url('../images/main\ img_bg.png')no-repeat center center/cover;
+    position: relative;
+    padding: 20px 2rem;
+    max-width: 100vw;
+}
+
+/*Spyscroll*/
+
+.navbar-example2{
+    background-color: #3d4143ae;
+    color: white;
+}
+
+#navbar-title{
+    text-align: center;
+}
+
+.navbar-example2 h4{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.navbar-example2 a{
+    font-size: 1.5rem;
+}
+
+.project-links{
+    color: white;
+    margin-bottom: 100px;
+}
+
+.nav-link-projects, #navbar-title{
+    color: white;
+}
+
+#nav-button-project, #navbar-dropdown-project{
+    background-color: #3d4143;
+    color: white;
+}
+
+/* Change active nav-pills link background and text color */
+.nav-pills .nav-link.active {
+    background-color: #333333; /* your custom background color */
+    color: #ffffff !important; /* your custom text color */
+  }
+
+/* Style dropdown items when active */
+.dropdown-menu .dropdown-item.active {
+    background-color: #333333;
+    color: #ffffff;
+  }
+
 /*Homepage*/
 
 /*Main image on page*/
@@ -34,12 +88,7 @@ h2{
     
 }
 
-/*Main body of text under hero image*/
-#hero-txt{
-    background: url('../images/main\ img_bg.png')no-repeat center center/cover;
-    position: relative;
-    padding: 20px 2rem;
-}
+
 /*Adds a layer on top of the hero-text*/
 #smokescreen{
     position: relative;
@@ -82,46 +131,6 @@ h2{
     min-height: 400px; 
 }
 
-.navbar-example2{
-    background-color: #3d4143ae;
-    color: white;
-}
-
-.navbar-example2 h4{
-    margin-top: 20px;
-    font-size: 2rem;
-}
-
-.navbar-example2 a{
-    font-size: 1.5rem;
-}
-
-.project-links{
-    color: white;
-    margin-bottom: 100px;
-}
-
-
-.nav-link-projects, #navbar-title{
-    color: white;
-}
-
-#nav-button-project, #navbar-dropdown-project{
-    background-color: #3d4143;
-    color: white;
-}
-
-/* Change active nav-pills link background and text color */
-.nav-pills .nav-link.active {
-    background-color: #333333; /* your custom background color */
-    color: #ffffff !important; /* your custom text color */
-  }
-
-/* Style dropdown items when active */
-.dropdown-menu .dropdown-item.active {
-    background-color: #333333;
-    color: #ffffff;
-  }
 
 /*Contact Page*/
 #hero-img-contact{
