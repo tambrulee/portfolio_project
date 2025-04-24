@@ -106,35 +106,22 @@ So that I can appreciate their skills and experience.
 
 ### 1. Home / About Me
 
-This is your first impression – it should feel personal, confident, and inviting.
+This is the landing page when the user first comes onto the website. It's split into three main sections: a hero image, body of text describing me and a banner showing icons of the coding languages I use.
 
 **Features:**
-- A friendly intro headline  
-  _e.g. “Hi, I’m Tobi – a junior developer passionate about clean code and creative design.”_
+- Hero image
 - A short bio  
-  _(what you're learning, your background, what you're excited about)_
-- A photo of you or a cool personal graphic
 - Key skills / tech stack badges  
-  _(HTML, CSS, JavaScript, Git, React, etc.)_
-- A “Download CV” button (optional)
-- Smooth links to other pages
+- Call to action button that leads to Projects page
 
 
-### 2. Projects / Portfolio
+### 2. Projects
 
-This is where the magic happens – your work lives here.
+Second website page which contains some of my ongoing projects.
 
-**Include:**
-- A grid or list of your best projects:
-  - Title
-  - Short description
-  - Tools/tech used
-  - Screenshot or GIF
-  - Buttons to “Live Demo” and “GitHub Repo”
-- Optionally, filter or tag by type  
-  _(e.g. “Web App”, “Open Source”, “Client Work”)_
+**Features**
+- A Bootstrap scrollspy window
 
-💡 **Bonus:** Add a little section like **“What I learned”** or **“Challenges faced”** under each project – hiring managers love that.
 
 
 ### 3. Contact / Connect
