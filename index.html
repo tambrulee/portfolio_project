@@ -31,8 +31,9 @@
 
 </head>
 <body>
+  <!--Header-->
   <header>
-    <!--Nav Bar-->
+    <!--Main Navigation - Bootstrap library-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a aria-label="Click here to back to the homepage" class="navbar-brand" href="/index.html">Tamsin Te-Strote</a>
@@ -57,11 +58,14 @@
   <main>
     <!--Hero Image / Bootstrap-->
       <div class="row">
-        <div class="container-fluid col-lg-6" id="hero-img"></div>
+        <figure>
+          <div class="container-fluid col-lg-6" id="hero-img"></div>
+        </figure>
 
         <div class="container-fluid col-lg-6" id="hero-txt">
           <div class="container-fluid" id="smokescreen">
-              <h2>About Me</h2>
+            <!--About Me section-->
+            <section><h2>About Me</h2>
               <p>Hi, I’m a junior software developer with a passion for building smart, user-friendly websites and web apps. I
                 specialise in creating modern, responsive websites for platforms like Shopify, Squarespace, and Wix, helping
                 businesses get online quickly with polished, professional designs.
@@ -75,7 +79,10 @@
                 experience, streamline workflows, and support content-driven websites — it's an exciting space that’s
                 transforming how we create and interact with digital products.
               </p>
-        
+            </section>
+
+            <!--Skills section-->
+            <section>
               <h2>Skills</h2>
               <ul>
                 <li>Responsive Web Design (HTML5, CSS3, Bootstrap)</li>
@@ -85,7 +92,10 @@
                 <li>Accessibility and performance optimisation</li>
               </ul>
               <br>
-        
+            </section>
+
+            <!--Coding languages section-->
+            <section>
               <h2>Coding Languages</h2>
               <ul>
                 <li>HTML5 & CSS3</li>
@@ -93,7 +103,10 @@
                 <li>Learning: Python & React (in progress)</li>
               </ul>
               <br>
-              <a href="/Projects.html">
+            </section>
+            
+            <!--Call to action button-->
+            <a href="/Projects.html">
               <button type="button" class="btn btn-light">View My Projects</button>
               </a>
             </div>
