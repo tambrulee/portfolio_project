@@ -61,49 +61,65 @@
         <figure>
           <div class="container-fluid col-lg-6" id="hero-img"></div>
         </figure>
-
+        
+    <!--Hero Text-->    
         <div class="container-fluid col-lg-6" id="hero-txt">
-          <div class="container-fluid" id="smokescreen">
-            <!--About Me section-->
-            <section><h2>About Me</h2>
-              <p>Hi, I’m a junior software developer with a passion for building smart, user-friendly websites and web apps. I
-                specialise in creating modern, responsive websites for platforms like Shopify, Squarespace, and Wix, helping
-                businesses get online quickly with polished, professional designs.
-              </p><br>
-              <p>I also work on full stack custom builds, where I love combining clean, functional frontend interfaces with
-                robust backend logic. Whether it’s creating a simple product landing page or developing a full-blown web
-                application, I enjoy solving problems and bringing ideas to life through code.
-              </p>
-              <br>
-              <p>Lately, I’ve also been exploring the power of AI-generated content and automation tools to enhance user
-                experience, streamline workflows, and support content-driven websites — it's an exciting space that’s
-                transforming how we create and interact with digital products.
-              </p>
-            </section>
-
-            <!--Skills section-->
-            <section>
-              <h2>Skills</h2>
-              <ul>
-                <li>Responsive Web Design (HTML5, CSS3, Bootstrap)</li>
-                <li>Frontend development with a strong focus on UX</li>
-                <li>Version control with Git/GitHub</li>
-                <li>E-commerce site building & customisation (Shopify, Wix, Squarespace)</li>
-                <li>Accessibility and performance optimisation</li>
-              </ul>
-              <br>
-            </section>
-
-            <!--Coding languages section-->
-            <section>
-              <h2>Coding Languages</h2>
-              <ul>
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (vanilla)</li>
-                <li>Learning: Python & React (in progress)</li>
-              </ul>
-              <br>
-            </section>
+            
+<!--Projects (Scrollspy) / Bootstrap-->
+<nav id="navbar-example2" class="navbar navbar-example2 px-3 mb-3">
+  <a class="navbar-brand" id="navbar-title" href="#">Check out my latest projects!</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link nav-link-projects" href="#scrollspyHeading1">GitHub</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-link-projects" href="#scrollspyHeading2">Shopify</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link nav-link-projects dropdown-toggle" id="nav-button-project" data-bs-toggle="dropdown"
+        href="#" role="button" aria-expanded="false">See More</a>
+      <ul class="dropdown-menu" id="navbar-dropdown-project">
+        <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading3">Hosting</a></li>
+        <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading4">Coming Soon</a></li>
+        <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading5">Coming Soon</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+  data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2 navbar-example2" tabindex="0"
+  style="height: 300px; overflow-y: scroll;">
+  <h4 id="scrollspyHeading1">About Me</h4>
+  <p>Hi, I’m a junior software developer with a passion for building smart, user-friendly websites and web apps. I
+    specialise in creating modern, responsive websites for platforms like Shopify, Squarespace, and Wix, helping
+    businesses get online quickly with polished, professional designs.
+  <br>
+  I also work on full stack custom builds, where I love combining clean, functional frontend interfaces with
+    robust backend logic. Whether it’s creating a simple product landing page or developing a full-blown web
+    application, I enjoy solving problems and bringing ideas to life through code.
+  <br>
+  Lately, I’ve also been exploring the power of AI-generated content and automation tools to enhance user
+    experience, streamline workflows, and support content-driven websites — it's an exciting space that’s
+    transforming how we create and interact with digital products.</p>
+  <h4 id="scrollspyHeading2">Skills</h4>
+  <ul>
+    <li>Responsive Web Design (HTML5, CSS3, Bootstrap)</li>
+    <li>Frontend development with a strong focus on UX</li>
+    <li>Version control with Git/GitHub</li>
+    <li>E-commerce site building & customisation (Shopify, Wix, Squarespace)</li>
+    <li>Accessibility and performance optimisation</li>
+  </ul>
+  <h4 id="scrollspyHeading3">Coding Languages</h4>
+  <ul>
+    <li>HTML5 & CSS3</li>
+    <li>JavaScript (vanilla)</li>
+    <li>Learning: Python & React (in progress)</li>
+  </ul>
+  
+</div>
+</div>
+</div>
+</main>
 
             <!--Call to action button-->
             <a aria-label="Click here to view my projects!" href="/Projects.html">
