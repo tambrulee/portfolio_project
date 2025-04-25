@@ -99,6 +99,15 @@ h2{
     
 }
 
+/*Call to action button*/
+.center-button {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically (optional if you want vertical centering) */
+    width: 30%;              /* Make sure the anchor fills its container */
+    margin: 10px 35%;
+}
+
 /*Badges*/
 
 /*This controls the styling and position of the badges*/
@@ -213,7 +222,7 @@ h2{
     }
 
     .scrollspy-example{
-        min-height: 600px;
+        min-height: 650px;
     }
 
     #badges{
