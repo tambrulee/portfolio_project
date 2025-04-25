@@ -4,6 +4,10 @@
     font-family: Bebas Neue, sans-serif;
 }
 
+
+
+
+
 /*Paragraph*/
 
 p, ul>li{
@@ -108,15 +112,7 @@ h2{
     color: white;
 }
 
-/*Footer*/
 
-#footer-text{
-    font-family: Bebas Neue, sans-serif;
-}
-
-.footer-links{
-    color: white;
-}
 
 
 /*Projects Page*/
@@ -186,7 +182,16 @@ h2{
       .col-1{
         padding: 0 30px;
       }
- 
+
+/*Footer*/
+
+#footer-text{
+    font-family: Bebas Neue, sans-serif;
+}
+
+.footer-links{
+    color: white;
+}
 
 /*Increases footer text size*/
     #footer-text {
@@ -201,7 +206,11 @@ h2{
 }
 
 /* Media query: landscape phones and larger (992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
+
+    #hero-text, #hero-img{
+        min-height: 800px;
+    }
 
     #badges{
         position: relative;
