@@ -26,12 +26,16 @@ h2{
 }
 
 /*This will be under the text below the hero image on each page*/
-#hero-txt{
+#hero-text{
     background: url('../images/main\ img_bg.png')no-repeat center center/cover;
     position: relative;
     padding: 10px 1rem;
     max-width: 100vw;
-    top: 0px;
+  
+}
+
+#hero-text, #hero-img{
+    min-height: 300px;
 }
 
 /*Spyscroll*/
