@@ -31,102 +31,113 @@
 
 </head>
 <body>
+  <!--Header-->
   <header>
-
-    <!--Nav Bar-->
+    <!--Main Navigation - Bootstrap library-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a aria-label="Click here to back to the homepage" class="navbar-brand" href="/index.html">Tamsin Te-Strote</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a aria-label="Follow this link to view my all projects" class="nav-link active main-menu-item" aria-current="page" href="/Projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a aria-label="Click here to get in contact" class="nav-link main-menu-item" href="/Contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a aria-label="Click here to back to the homepage" class="navbar-brand" href="/index.html">Tamsin Te-Strote</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a aria-label="Follow this link to view my all projects" class="nav-link main-menu-item" href="/Projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a aria-label="Click here to get in contact" class="nav-link main-menu-item" href="/Contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </header>
+  <!--Main Body-->
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6" id="hero-img-projects"></div>
+        <div class="col-12 col-lg-6" id="hero-text">
 
-</header>
-    <main>
-
-        
-
-        <!--Hero Image / Bootstrap-->
-        <div class="container">
-          <div class="container-fluid col-lg-6" id="hero-img-projects">
-          </div>
-        
-          <div class="container-fluid col-lg-6" id="hero-txt">
-
-        <!--Projects (Scrollspy) / Bootstrap-->
-            <nav id="navbar-example2" class="navbar navbar-example2 px-3 mb-3">
-              <a class="navbar-brand" id="navbar-title" href="#">Check out my latest projects!</a>
-              <ul class="nav nav-pills">
-                <li class="nav-item">
-                  <a class="nav-link nav-link-projects" href="#scrollspyHeading1">GitHub</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link nav-link-projects" href="#scrollspyHeading2">Shopify</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link nav-link-projects dropdown-toggle" id="nav-button-project" data-bs-toggle="dropdown"
-                    href="#" role="button" aria-expanded="false">See More</a>
-                  <ul class="dropdown-menu" id="navbar-dropdown-project">
-                    <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading3">Hosting</a></li>
-                    <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading4">Coming Soon</a></li>
-                    <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading5">Coming Soon</a></li>
-                  </ul>
-                </li>
+          <!-- Navigation (Scrollspy)-->
+        <nav id="navbar-example2" class="navbar navbar-example2 px-3 mb-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link nav-link-projects" href="#scrollspyHeading1">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-projects" href="#scrollspyHeading2">Skills</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link-projects" href="#scrollspyHeading3">Code</a>
+            </li>    
               </ul>
-            </nav>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-              data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2 navbar-example2" tabindex="0"
-              style="height: 300px; overflow-y: scroll;">
-              <h4 id="scrollspyHeading1">GitHub: Portfolio</h4>
-              <p>This is my first ever GitHub based project. Version control. Attractive and well-presented README file. HTML5,
-                Bootstrap & Custom CSS. Fully tested and mobile-optimised. Complies with accessibility legislation. Link to
-                GitHub Repository. Dalio AI images</p>
-              <a class="project-links" href="https://github.com/tambrulee/Portfolio_Project" target="_blank">Visit website</a>
-              <h4 id="scrollspyHeading2">Shopify: Luxury Bathrooms & Tiles</h4>
-              <p>Adobe Photoshop. Custom CSS and HTML5. Chatbot, wishlist and sample order app integrations. A well-organized
-                list of projects with descriptions, technologies used, and links to code/demo.</p>
-              <a class="project-links" href="https://www.luxurybathroomsandtiles.co.uk" target="_blank">Visit website</a>
-              <h4 id="scrollspyHeading3">Hosting: Rising Up Ministries</h4>
-              <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
-              <a class="project-links" href="https://www.risingupministries.co.uk" target="_blank">Visit website</a>
-              <h4 id="scrollspyHeading4">Coming Soon</h4>
-              <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
-              <a class="project-links" href="#" target="_blank">Visit website</a>
-              <h4 id="scrollspyHeading5">Coming Soon</h4>
-              <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
-              <a class="project-links" href="#" target="_blank">Visit website</a>
-            </div>
-          </div>
+            </li>
+          </ul>
+        </nav>
+        <nav id="navbar-example2" class="navbar navbar-example2 px-3 mb-3">
+          <a class="navbar-brand" id="navbar-title" href="#">Check out my latest projects!</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link nav-link-projects" href="#scrollspyHeading1">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-projects" href="#scrollspyHeading2">Shopify</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link nav-link-projects dropdown-toggle" id="nav-button-project" data-bs-toggle="dropdown"
+                href="#" role="button" aria-expanded="false">See More</a>
+              <ul class="dropdown-menu" id="navbar-dropdown-project">
+                <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading3">Hosting</a></li>
+                <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading4">Coming Soon</a></li>
+                <li><a class="dropdown-item nav-link-projects" href="#scrollspyHeading5">Coming Soon</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+          data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2 navbar-example2" tabindex="0"
+          style="height: 300px; overflow-y: scroll;">
+          <h4 id="scrollspyHeading1">GitHub: Portfolio</h4>
+          <p>This is my first ever GitHub based project. Version control. Attractive and well-presented README file. HTML5,
+            Bootstrap & Custom CSS. Fully tested and mobile-optimised. Complies with accessibility legislation. Link to
+            GitHub Repository. Dalio AI images</p>
+          <a class="project-links" href="https://github.com/tambrulee/Portfolio_Project" target="_blank">Visit website</a>
+          <h4 id="scrollspyHeading2">Shopify: Luxury Bathrooms & Tiles</h4>
+          <p>Adobe Photoshop. Custom CSS and HTML5. Chatbot, wishlist and sample order app integrations. A well-organized
+            list of projects with descriptions, technologies used, and links to code/demo.</p>
+          <a class="project-links" href="https://www.luxurybathroomsandtiles.co.uk" target="_blank">Visit website</a>
+          <h4 id="scrollspyHeading3">Hosting: Rising Up Ministries</h4>
+          <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
+          <a class="project-links" href="https://www.risingupministries.co.uk" target="_blank">Visit website</a>
+          <h4 id="scrollspyHeading4">Coming Soon</h4>
+          <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
+          <a class="project-links" href="#" target="_blank">Visit website</a>
+          <h4 id="scrollspyHeading5">Coming Soon</h4>
+          <p>A well-organized list of projects with descriptions, technologies used, and links to code/demo.</p>
+          <a class="project-links" href="#" target="_blank">Visit website</a>
         </div>
-      </main>
+        </div>
+      </div>
+    </div> 
+  </main>
 
-    <!--Footer/Bootstrap-->
+        <!--Footer/Bootstrap-->
 
-    <footer class="bg-dark text-white text-center py-3">
-      <p id="footer-text">&copy; 2025 Tamsin Te-Strote</p>
-      <a aria-label="Visit my LinkedIn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank"><i class="fa-brands fa-linkedin footer-links"></i></a>
-      <a aria-label="Visit my GitHub Repositories" href="https://github.com/tambrulee" target="_blank"><i class="fa-brands fa-github footer-links"></i></a>
-      <a aria-label="Click here to send me an email" href="mailto:thamiltontestrote@gmail.com/" target="_blank"><i class="fa-solid fa-square-envelope footer-links"></i></a>
-  </footer>
+        <footer class="bg-dark text-white text-center py-3">
+          <p id="footer-text">&copy; 2025 Tamsin Te-Strote</p>
+          <a aria-label="Visit my LinkedIn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank"><i class="fa-brands fa-linkedin footer-links"></i></a>
+          <a aria-label="Visit my GitHub Repositories" href="https://github.com/tambrulee" target="_blank"><i class="fa-brands fa-github footer-links"></i></a>
+          <a aria-label="Click here to send me an email" href="mailto:thamiltontestrote@gmail.com/" target="_blank"><i class="fa-solid fa-square-envelope footer-links"></i></a>
+      </footer>
 
 
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <!--Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/40f053d397.js" crossorigin="anonymous"></script>
-
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/40f053d397.js" crossorigin="anonymous"></script>
 </body>
 </html>
