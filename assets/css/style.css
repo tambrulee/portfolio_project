@@ -212,6 +212,10 @@ h2{
         min-height: 800px;
     }
 
+    .scrollspy-example{
+        min-height: 600px;
+    }
+
     #badges{
         position: relative;
         top: 0;
