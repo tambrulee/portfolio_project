@@ -118,14 +118,26 @@ a {
     min-height: 400px; 
 }
 
+/*Accordian Variables*/
+$accordion-border-color: #3d4143ae;
+
 .accordion {
+
+   
     .accordion-item {
       background-color: #3d4143ae; // Set the background color of each accordion item
       color: white; // Set text color to white
+      border-color: $accordion-border-color;
   
       .accordion-header {
         background-color: #3d4143ae; // Background color for the header
         color: white; // Text color for the header
+       
+      }
+
+      .accordion-title {
+        padding: 10px 10px;
+        
       }
   
       .accordion-button {
@@ -148,7 +160,12 @@ a {
         color: white; // Text color inside the content area
       }
     }
+
+    
+    
   }
+
+  
   
   /*Footer*/
 

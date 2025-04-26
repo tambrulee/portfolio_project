@@ -110,13 +110,18 @@ a {
   min-height: 400px;
 }
 
+/*Accordian Variables*/
 .accordion .accordion-item {
   background-color: rgba(61, 65, 67, 0.6823529412);
   color: white;
+  border-color: rgba(61, 65, 67, 0.6823529412);
 }
 .accordion .accordion-item .accordion-header {
   background-color: rgba(61, 65, 67, 0.6823529412);
   color: white;
+}
+.accordion .accordion-item .accordion-title {
+  padding: 10px 10px;
 }
 .accordion .accordion-item .accordion-button {
   background-color: #ffffff;
