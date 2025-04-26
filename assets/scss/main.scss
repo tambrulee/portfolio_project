@@ -150,28 +150,7 @@ a {
     }
   }
   
-  
-  
-
-
-
-/* Media query: landscape phones and larger (576px and up) */
-@media screen and (min-width: 576px) {
-
-/*Increases brand size on nav*/
-.navbar-brand{
-    font-size: 2rem;
-}
-
-/*Increases hero image siez*/
-
-    #hero-img{
-        top: 100px;
-        min-height: 600px;
-    }
-
-
-/*Footer*/
+  /*Footer*/
 
 #footer-text{
     font-family: Bebas Neue, sans-serif;
@@ -182,13 +161,30 @@ a {
 }
 
 /*Increases footer text size*/
-    #footer-text {
-        font-size: 2rem;
-    }
+#footer-text {
+    font-size: 2rem;
+}
 /*Increases footer badges size*/
-    footer i {
-        font-size: 2rem; /* Or any size you prefer */  
-        padding: 0 20px;
+footer i {
+    font-size: 2rem; /* Or any size you prefer */  
+    padding: 0 20px;
+}
+  
+/*Increases brand size on nav*/
+.navbar-brand{
+    font-size: 2rem;
+}
+
+
+/* Media query: landscape phones and larger (576px and up) */
+@media screen and (min-width: 576px) {
+
+
+/*Increases hero image siez*/
+
+    #hero-img{
+        top: 100px;
+        min-height: 600px;
     }
 
 }
