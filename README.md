@@ -204,6 +204,8 @@ A quick, simple way for people to reach you or connect further.
 
 ## Known Bugs
 
+Front page spyscroll - Code does not show button and highlights blue
+
 ## Attribution
 
 Bootstrap
