@@ -98,6 +98,10 @@ a {
   margin: 10px 35%;
 }
 
+.skill-logos {
+  background-color: gold;
+}
+
 /*Projects Page*/
 #hero-img-projects {
   background: url("../images/Projects.png") no-repeat center center/cover;

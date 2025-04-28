@@ -104,7 +104,7 @@ This is the landing page when the user first comes onto the website. It's split 
 **Wire Frames**
 
 <img src="assets/images/README/Wireframes/Mobile_view.png">
-<img src="/assets/images/README/Wireframes/Front_page.pngt">
+<img src="assets/images/README/Wireframes/Front_page.png">
 
 
 
