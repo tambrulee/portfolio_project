@@ -13,7 +13,6 @@ Alongside developing webpages, I'd like to showcase some of the work I do in ter
 
 On this project, I used HTML5, CSS3, Bootstrap and SCSS. The use of SCSS is quite limited because I'm still learning and I will try it out further in the next project. Bebas Nuaer and Avenir from Google Fonts.
 
-
 To generate the AI images I asked ChatGPT to convert a real life photo of myself and then add the relevant text for each parts of the website:
 
 <img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
@@ -111,7 +110,7 @@ So that I can appreciate their skills and experience.
 ### 1. Home / About Me
 
 This is the landing page when the user first comes onto the website. It's split into three main sections: a hero image, body of text describing me and a banner showing icons of the coding languages I use.
-
+<img src="">
 **Features:**
 - Hero image
 - A short bio  
@@ -164,6 +163,7 @@ A quick, simple way for people to reach you or connect further.
 ### Mobile Responsiveness
 
 
+## Deployment
 
 ## Known Bugs
 
