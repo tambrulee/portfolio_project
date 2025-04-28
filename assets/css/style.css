@@ -112,12 +112,12 @@ a {
 
 /*Accordian Variables*/
 .accordion .accordion-item {
-  background-color: rgba(61, 65, 67, 0.6823529412);
+  background-color: rgba(51, 51, 51, 0.8509803922);
   color: white;
   border-color: rgba(61, 65, 67, 0.6823529412);
 }
 .accordion .accordion-item .accordion-header {
-  background-color: rgba(61, 65, 67, 0.6823529412);
+  background-color: 333333;
   color: white;
 }
 .accordion .accordion-item .accordion-title {
@@ -129,10 +129,10 @@ a {
   border: none;
 }
 .accordion .accordion-item .accordion-button.collapsed {
-  background-color: rgba(61, 65, 67, 0.6823529412);
+  background-color: rgba(191, 206, 184, 0.5058823529);
 }
 .accordion .accordion-item .accordion-button:not(.collapsed) {
-  background-color: #333333;
+  background-color: rgba(67, 102, 51, 0.7058823529);
 }
 .accordion .accordion-item .accordion-collapse {
   background-color: rgba(61, 65, 67, 0.6823529412);

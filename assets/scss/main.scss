@@ -129,12 +129,12 @@ $accordion-border-color: #3d4143ae;
 
    
     .accordion-item {
-      background-color: #3d4143ae; // Set the background color of each accordion item
+      background-color: #333333d9;; // Set the background color of each accordion item
       color: white; // Set text color to white
       border-color: $accordion-border-color;
   
       .accordion-header {
-        background-color: #3d4143ae; // Background color for the header
+        background-color: 333333; // Background color for the header
         color: white; // Text color for the header
        
       }
@@ -151,11 +151,11 @@ $accordion-border-color: #3d4143ae;
   
         // When the button is clicked (active state), change the background
         &.collapsed {
-          background-color: #3d4143ae; // Background color when collapsed
+          background-color: #bfceb881; // Background color when collapsed
         }
   
         &:not(.collapsed) {
-          background-color: #333333; // Background color when expanded (active)
+          background-color: #436633b4; // Background color when expanded (active)
         }
       }
   
