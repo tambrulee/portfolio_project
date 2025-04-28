@@ -7,9 +7,12 @@
 
 This is a project portfolio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do. I hope to also entice collaborators in the future on any projects I undertake.
 
-There is a running theme in the project, instead of using a real photo/headshot of myself I decided to use an Studio Ghibli style photo which I generated using Dalio in ChatGPT. 
+The website has an Anime theme. I used a Studio Ghibli style photo which I generated using Dalio in ChatGPT. 
 
-Alongside developing webpages, I'd like to showcase some of the work I do in terms of not just coding by also design. I want to stand out amongst other developers as having flair but also show a bit of my own personality. 
+Alongside developing webpages, I'd like to showcase some of the work I do in terms of not just coding but also design. I want to stand out amongst other developers as having flair but also show a bit of my own personality. 
+
+On this project, I used HTML5, CSS3, Bootstrap and SCSS. The use of SCSS is quite limited because I'm still learning and I will try it out further in the next project. Bebas Nuaer and Avenir from Google Fonts.
+
 
 To generate the AI images I asked ChatGPT to convert a real life photo of myself and then add the relevant text for each parts of the website:
 
@@ -35,6 +38,7 @@ Font awesome for icons and may need to use Google Fonts for Bebas Nue and Avenir
 * HTML5 - Basic website structure, semantic markup and accessibility
 * CSS3 - General theme customisation
 * Bootstrap - Mobile responsive containers, navigation, footer, spyscroll and accordion
+* SCSS  
 
 #### Styling
 
@@ -133,8 +137,6 @@ A quick, simple way for people to reach you or connect further.
   _e.g. “Let’s work together or just say hi 👋”_
 - Email address
 - LinkedIn / GitHub / other socials
-- Optionally, a contact form  
-  _(Name, Email, Message)_
 - Footer with your name and year
 
 
