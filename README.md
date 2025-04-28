@@ -4,35 +4,53 @@
 
 ## About Project
 
-This is a project portfolio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do. I hope to also entice collaborators in the future on any projects I undertake.
+This portfolio website was created to showcase my skills, as well as my past and ongoing projects. It serves both as a way to attract prospective recruiters and as a space to share future work. I also hope it will encourage potential collaborators to connect with me on upcoming projects.
 
-The website has an Anime theme. I used a Studio Ghibli style photo which I generated using Dalio in ChatGPT. 
+The website features an anime-inspired theme, using a Studio Ghibli-style illustration that I generated with DALL-E through ChatGPT.
 
-Alongside developing webpages, I'd like to showcase some of the work I do in terms of not just coding but also design. I want to stand out amongst other developers as having flair but also show a bit of my own personality. 
+In addition to web development, I wanted to highlight my design work to differentiate myself from other developers — blending technical skills with creative flair and giving a glimpse of my personality.
 
-On this project, I used HTML5, CSS3, Bootstrap and SCSS. The use of SCSS is quite limited because I'm still learning and I will try it out further in the next project. Bebas Nuaer and Avenir from Google Fonts.
+For this project, I used HTML5, CSS3, Bootstrap, and SCSS. My use of SCSS is currently limited as I’m still learning, but I plan to expand on it in future projects. Typography is set using Bebas Neue and Avenir, both sourced from Google Fonts.
 
-To generate the AI images I asked ChatGPT to convert a real life photo of myself and then add the relevant text for each parts of the website:
+The AI-generated images were created by converting a real-life photo of myself.
 
 <img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
+
+**A picture of me that I converted into an AI image**
+
 <img src="assets/images/About.png" alt="Home page photo created in ChatGPT">
+
+**Hero image for home page**
+
 <img src="assets/images/Projects.png" alt="Home page photo created in ChatGPT">
+
+**Hero image for project page**
+
 <img src="assets/images/Contact.png" alt="Home page photo created in ChatGPT">
+
+**Hero image for contact page**
 
 ## Built With
 
+### Techonologies
 * HTML5 - Basic website structure, semantic markup and accessibility
 * CSS3 - General theme customisation
 * Bootstrap - Mobile responsive containers, navigation, footer, spyscroll and accordion
 * SCSS 
 
-## Styling
+### Styling
 
 * Font Awesome - Footer Icons
 * Google Fonts - Importing Avenir & Bebas Neue
 * DALL-E
 
 ## User Stories
+
+These are the user stories alongside acceptance critera which served as the basis for the design. I wanted the project to take into consideration non-technical and technical users, therefore I kept the overall language and layout quite simple. I have also created a clear workflow between the homepage, projects and contacts pages through call to action buttons. 
+
+There are also links to Github which allows technical users to find out about my work via my reposititories. External link to Linked In allows hiring managers and recruiters to quickly scan my resume before reaching out to me. 
+
+Overall the website is quite compact and makes good use of space without being overcrowded. It allows the reader to find out about me quickly and move through my site to view my work.
 
 ### 1. Hiring Manager Reviewing My Portfolio
 
@@ -98,10 +116,15 @@ So that I can appreciate their skills and experience.
 ### 1. Home / About Me
 
 This is the landing page when the user first comes onto the website. It's split into three main sections: a hero image, body of text describing me and a banner showing icons of the coding languages I use.
+
+I decided to use the Scrollspy feature after applying it to the Project page and liking the way it looked. In terms of UX I thought it went well with the overall theme and made the information look nicely compact on the page.
+
 <img src="assets/images/README/Finished Pages/About Page - Finished.png">
 <img src="assets/images/README/Finished Pages/Tablet:Mobile View - About Page -  Finished.png">
 
 **Wire Frames**
+
+Initally, 
 
 <img src="assets/images/README/Wireframes/Mobile_view.png">
 <img src="assets/images/README/Wireframes/Front_page.png">
@@ -167,10 +190,26 @@ A quick, simple way for people to reach you or connect further.
 
 ### Lighthouse Test
 
+<img src="assets/images/README/Code testing/Lighthouse Testing.png">
+<img src="assets/images/README/Code testing/Lighthouse testing 2.png">
+
 ### Mobile Responsiveness
+<img src="assets/images/README/Code testing/Mobile_responsiveness_home.png">
+<img src="assets/images/README/Code testing/Mobile_responsiveness_projects.png">
+<img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png">
 
 ## Deployment
+
+<img src="/assets/images/README/Code testing/Deployment to GitHub.png">
 
 ## Known Bugs
 
 ## Attribution
+
+Bootstrap
+
+Navigation
+Footer
+Mobile Responsiveness
+Scrollspy
+Accordian
