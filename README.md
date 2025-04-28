@@ -2,7 +2,6 @@
 
 <img src="assets/images/README.png" alt="Welcome to my portfolio project">
 
-
 ## About Project
 
 This is a project portfolio designed to showcase my skillset alongside past and ongoing projects. I aim to entice prospective recruiters and also use this as a space to plug in any future work I do. I hope to also entice collaborators in the future on any projects I undertake.
@@ -20,29 +19,18 @@ To generate the AI images I asked ChatGPT to convert a real life photo of myself
 <img src="assets/images/Projects.png" alt="Home page photo created in ChatGPT">
 <img src="assets/images/Contact.png" alt="Home page photo created in ChatGPT">
 
-
-## Wire Frames
-
-This will contain a link to a PDF which has my Wireframes in it. There will also be a talk through of my justifications for doing everything.
-
-The theme stays the same throughout - burger menu to dropdown on a transparent backgroud when hovered over on pc - otherwise on click for mobile/tablet devices. Actually second thoughts not necessary...
-
-I might create my nav and footer using CSS because I want more creative control over fonts and colours but still may just use Bootstrap for responsiveness. 
-
-Font awesome for icons and may need to use Google Fonts for Bebas Nue and Avenir it will fall back onto standard sans-serif if not available/compatible.
-
-
 ## Built With
 
 * HTML5 - Basic website structure, semantic markup and accessibility
 * CSS3 - General theme customisation
 * Bootstrap - Mobile responsive containers, navigation, footer, spyscroll and accordion
-* SCSS  
+* SCSS 
 
-#### Styling
+## Styling
 
 * Font Awesome - Footer Icons
 * Google Fonts - Importing Avenir & Bebas Neue
+* DALL-E
 
 ## User Stories
 
@@ -109,8 +97,16 @@ So that I can appreciate their skills and experience.
 
 ### 1. Home / About Me
 
+
+
+
 This is the landing page when the user first comes onto the website. It's split into three main sections: a hero image, body of text describing me and a banner showing icons of the coding languages I use.
-<img src="">
+<img src="assets/images/README/Finished Pages/About Page - Finished.png">
+<img src="assets/images/README/Finished Pages/Tablet:Mobile View - About Page -  Finished.png">
+
+**Wire Frames**
+<a href="https://www.google.com" target="_blank">Click Here</a>
+
 **Features:**
 - Hero image
 - A short bio  
@@ -122,6 +118,11 @@ This is the landing page when the user first comes onto the website. It's split 
 
 Second website page which contains some of my ongoing projects.
 
+<img src="assets/images/README/Finished Pages/Projects Page - Finished.png">
+
+**Wire Frames**
+<a href="https://www.google.com" target="_blank">Click Here</a>
+
 **Features**
 - A Bootstrap scrollspy window
 
@@ -131,7 +132,12 @@ Second website page which contains some of my ongoing projects.
 
 A quick, simple way for people to reach you or connect further.
 
-**Include:**
+<img src="assets/images/README/Finished Pages/Contact Page - Finished.png">
+
+**Wire Frames**
+<a href="https://www.google.com" target="_blank">Click Here</a>
+
+**Features:**
 - A friendly message  
   _e.g. “Let’s work together or just say hi 👋”_
 - Email address
@@ -142,31 +148,28 @@ A quick, simple way for people to reach you or connect further.
 ## Testing
 
 ### HTML Test
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.42.41.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.53.08.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.53.16.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.53.54.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.54.04.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 22.54.12.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.02.32.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.02.39.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.10.15.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.12.47.png">
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.18.09.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.42.41.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.08.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.16.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.54.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.54.04.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.54.12.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.02.32.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.02.39.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.10.15.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.12.47.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.18.09.png">
 
 ### CSS Test
 
-<img src="assets/images/Code testing/Screenshot 2025-04-22 at 23.19.04.png">
+<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.19.04.png">
 
 ### Lighthouse Test
 
 ### Mobile Responsiveness
 
-
 ## Deployment
 
 ## Known Bugs
-
-
 
 ## Attribution
