@@ -1,6 +1,8 @@
+/* Variables*/
 /*Global style*/
 * {
   font-family: Bebas Neue, sans-serif;
+  font-size: 14px;
 }
 
 p, ul > li {
@@ -20,7 +22,7 @@ a {
 
 /*Navigation*/
 .main-menu-item {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /*This will be under the text below the hero image on each page*/
@@ -47,7 +49,7 @@ a {
 
 .navbar-example2 h4 {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .navbar-example2 a {
@@ -71,13 +73,13 @@ a {
 /* Change active nav-pills link background and text color */
 .nav-pills .nav-link.active {
   background-color: #333333; /* your custom background color */
-  color: #ffffff !important; /* your custom text color */
+  color: white !important; /* your custom text color */
 }
 
 /* Style dropdown items when active */
 .dropdown-menu .dropdown-item.active {
   background-color: #333333;
-  color: #ffffff;
+  color: white;
 }
 
 /*Homepage*/
@@ -128,7 +130,7 @@ a {
   padding: 10px 10px;
 }
 .accordion .accordion-item .accordion-button {
-  background-color: #ffffff;
+  background-color: white;
   color: white;
   border: none;
 }

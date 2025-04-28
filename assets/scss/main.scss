@@ -1,16 +1,23 @@
+/* Variables*/
+$primary-font: Bebas Neue, sans-serif;
+$seconday-font: Avenir, sans-serif;
+$primary-font-color: white;
+
+
 /*Global style*/
 
 *{
-    font-family: Bebas Neue, sans-serif;
+    font-family: $primary-font;
+    font-size: 14px;
 }
 
 p, ul>li{
-    font-family: Avenir, sans-serif;
-    color: white;
+    font-family: $seconday-font;
+    color: $primary-font-color;
 }
 
 h2{
-    color: white;
+    color: $primary-font-color;
     text-align: center;
     padding-top: 10px;
 }
@@ -22,7 +29,7 @@ a {
 /*Navigation*/
 
 .main-menu-item{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /*This will be under the text below the hero image on each page*/
@@ -42,7 +49,7 @@ a {
 
 .navbar-example2{
     background-color: #3d4143ae;
-    color: white;
+    color: $primary-font-color;
 }
 
 #navbar-title{
@@ -51,7 +58,7 @@ a {
 
 .navbar-example2 h4{
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .navbar-example2 a{
@@ -59,29 +66,29 @@ a {
 }
 
 .project-links{
-    color: white;
+    color: $primary-font-color;
     margin-bottom: 100px;
 }
 
 .nav-link-projects, #navbar-title{
-    color: white;
+    color: $primary-font-color;
 }
 
 #nav-button-project, #navbar-dropdown-project{
     background-color: #3d4143;
-    color: white;
+    color: $primary-font-color;
 }
 
 /* Change active nav-pills link background and text color */
 .nav-pills .nav-link.active {
     background-color: #333333; /* your custom background color */
-    color: #ffffff !important; /* your custom text color */
+    color: $primary-font-color !important; /* your custom text color */
   }
 
 /* Style dropdown items when active */
 .dropdown-menu .dropdown-item.active {
     background-color: #333333;
-    color: #ffffff;
+    color: $primary-font-color;
   }
 
 /*Homepage*/
@@ -129,12 +136,12 @@ $accordion-border-color: #3d4143ae;
    
     .accordion-item {
       background-color: #333333d9;; // Set the background color of each accordion item
-      color: white; // Set text color to white
+      color: $primary-font-color; // Set text color to white
       border-color: $accordion-border-color;
   
       .accordion-header {
         background-color: 333333; // Background color for the header
-        color: white; // Text color for the header
+        color: $primary-font-color; // Text color for the header
        
       }
 
@@ -144,8 +151,8 @@ $accordion-border-color: #3d4143ae;
       }
   
       .accordion-button {
-        background-color: #ffffff; // Default background color for the button
-        color: white; // Default text color for the button
+        background-color: $primary-font-color; // Default background color for the button
+        color: $primary-font-color; // Default text color for the button
         border: none; // Remove button border for cleaner design
   
         // When the button is clicked (active state), change the background
@@ -160,7 +167,7 @@ $accordion-border-color: #3d4143ae;
   
       .accordion-collapse {
         background-color: #3d4143ae; // Background color of the accordion content area
-        color: white; // Text color inside the content area
+        color: $primary-font-color; // Text color inside the content area
       }
     }
 
@@ -173,11 +180,11 @@ $accordion-border-color: #3d4143ae;
   /*Footer*/
 
 #footer-text{
-    font-family: Bebas Neue, sans-serif;
+    font-family: $primary-font;
 }
 
 .footer-links{
-    color: white;
+    color: $primary-font-color;
 }
 
 /*Increases footer text size*/

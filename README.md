@@ -200,7 +200,7 @@ A quick, simple way for people to reach you or connect further.
 
 ## Deployment
 
-<img src="/assets/images/README/Code testing/Deployment to GitHub.png">
+<img src="assets/images/README/Code testing/Deployment to GitHub.png">
 
 ## Known Bugs
 
