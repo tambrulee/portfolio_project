@@ -97,15 +97,16 @@ So that I can appreciate their skills and experience.
 
 ### 1. Home / About Me
 
-
-
-
 This is the landing page when the user first comes onto the website. It's split into three main sections: a hero image, body of text describing me and a banner showing icons of the coding languages I use.
 <img src="assets/images/README/Finished Pages/About Page - Finished.png">
 <img src="assets/images/README/Finished Pages/Tablet:Mobile View - About Page -  Finished.png">
 
 **Wire Frames**
-<a href="https://www.google.com" target="_blank">Click Here</a>
+
+<img src="assets/images/README/Wireframes/Mobile_view.png">
+<img src="/assets/images/README/Wireframes/Front_page.pngt">
+
+
 
 **Features:**
 - Hero image
@@ -121,7 +122,7 @@ Second website page which contains some of my ongoing projects.
 <img src="assets/images/README/Finished Pages/Projects Page - Finished.png">
 
 **Wire Frames**
-<a href="https://www.google.com" target="_blank">Click Here</a>
+<img src="assets/images/README/Wireframes/Projects_page.png">
 
 **Features**
 - A Bootstrap scrollspy window
@@ -135,7 +136,7 @@ A quick, simple way for people to reach you or connect further.
 <img src="assets/images/README/Finished Pages/Contact Page - Finished.png">
 
 **Wire Frames**
-<a href="https://www.google.com" target="_blank">Click Here</a>
+<img src="assets/images/README/Wireframes/Contact_page.png">
 
 **Features:**
 - A friendly message  
