@@ -212,6 +212,15 @@ footer i {
 }
 
 
+/* Media query: landscape phones and larger (395px and up) */
+@media screen and (min-width: 395px) {
+    .call-to-action-btn {
+        max-width: 150px;              /* Make sure the anchor fills its container */
+        margin: 10px 35%;
+    }
+
+}
+
 /* Media query: landscape phones and larger (576px and up) */
 @media screen and (min-width: 576px) {
 
