@@ -27,20 +27,12 @@ a {
     text-decoration: none; /* Remove the underline */
 }
 
-/*Call to action button for Projects and Contact pages*/
-.center-button {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically (optional if you want vertical centering) */
-    width: 30%;              /* Make sure the anchor fills its container */
-    margin: 10px 35%;
-}
-
 /*Navigation*/
 
 .main-menu-item{
     font-size: 2rem;
 }
+
 
 /*This will be under the text below the hero image on each page*/
 #hero-text{
@@ -53,6 +45,16 @@ a {
 
 #hero-text, #hero-img{
     min-height: 300px;
+}
+
+/*Call to action button*/
+.call-to-action-btn {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically (optional if you want vertical centering) */
+    width: 40%;              /* Make sure the anchor fills its container */
+    margin: 10px 30%;
+    font-size: 18px;
 }
 
 /*Spyscroll*/
@@ -104,15 +106,7 @@ a {
     
 }
 
-/*Call to action button*/
-.center-button {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically (optional if you want vertical centering) */
-    width: 30%;              /* Make sure the anchor fills its container */
-    margin: 10px 35%;
-    font-size: 1.5rem;
-}
+
 
 /*Projects Page*/
 #hero-img-projects{
