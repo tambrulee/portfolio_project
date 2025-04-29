@@ -38,6 +38,11 @@ a {
 }
 
 /*Spyscroll*/
+.btn-primary {
+  background-color: #333333;
+  border: #333333;
+}
+
 .navbar-example2 {
   background-color: rgba(61, 65, 67, 0.6823529412);
   color: white;
@@ -54,20 +59,6 @@ a {
 
 .navbar-example2 a {
   font-size: 1.5rem;
-}
-
-.project-links {
-  color: white;
-  margin-bottom: 100px;
-}
-
-.nav-link-projects, #navbar-title {
-  color: white;
-}
-
-#nav-button-project, #navbar-dropdown-project {
-  background-color: #3d4143;
-  color: white;
 }
 
 /* Change active nav-pills link background and text color */
@@ -108,6 +99,21 @@ a {
 #hero-img-projects {
   background: url("../images/Projects.png") no-repeat center center/cover;
   min-height: 400px;
+}
+
+/*Project Page - Spyscroll*/
+.project-links {
+  color: white;
+  margin-bottom: 100px;
+}
+
+.nav-link-projects, #navbar-title {
+  color: white;
+}
+
+#nav-button-project, #navbar-dropdown-project {
+  background-color: #3d4143;
+  color: white;
 }
 
 /*Contact Page*/

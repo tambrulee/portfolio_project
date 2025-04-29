@@ -2,6 +2,7 @@
 $primary-font: Bebas Neue, sans-serif;
 $seconday-font: Avenir, sans-serif;
 $primary-font-color: white;
+$primary-button-color: #333333;
 
 
 /*Global style*/
@@ -47,6 +48,10 @@ a {
 
 /*Spyscroll*/
 
+.btn-primary{
+    background-color: $primary-button-color;
+    border: $primary-button-color;
+}
 .navbar-example2{
     background-color: #3d4143ae;
     color: $primary-font-color;
@@ -65,19 +70,7 @@ a {
     font-size: 1.5rem;
 }
 
-.project-links{
-    color: $primary-font-color;
-    margin-bottom: 100px;
-}
 
-.nav-link-projects, #navbar-title{
-    color: $primary-font-color;
-}
-
-#nav-button-project, #navbar-dropdown-project{
-    background-color: #3d4143;
-    color: $primary-font-color;
-}
 
 /* Change active nav-pills link background and text color */
 .nav-pills .nav-link.active {
@@ -119,6 +112,22 @@ a {
 #hero-img-projects{
     background: url("../images/Projects.png") no-repeat center center/cover;
     min-height: 400px; 
+}
+
+/*Project Page - Spyscroll*/
+
+.project-links{
+    color: $primary-font-color;
+    margin-bottom: 100px;
+}
+
+.nav-link-projects, #navbar-title{
+    color: $primary-font-color;
+}
+
+#nav-button-project, #navbar-dropdown-project{
+    background-color: #3d4143;
+    color: $primary-font-color;
 }
 
 
