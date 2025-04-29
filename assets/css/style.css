@@ -20,6 +20,15 @@ a {
   text-decoration: none; /* Remove the underline */
 }
 
+/*Call to action button for Projects and Contact pages*/
+.center-button {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional if you want vertical centering) */
+  width: 30%; /* Make sure the anchor fills its container */
+  margin: 10px 35%;
+}
+
 /*Navigation*/
 .main-menu-item {
   font-size: 2rem;
@@ -89,10 +98,7 @@ a {
   align-items: center; /* Center vertically (optional if you want vertical centering) */
   width: 30%; /* Make sure the anchor fills its container */
   margin: 10px 35%;
-}
-
-.skill-logos {
-  background-color: gold;
+  font-size: 1.5rem;
 }
 
 /*Projects Page*/

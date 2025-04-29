@@ -27,6 +27,15 @@ a {
     text-decoration: none; /* Remove the underline */
 }
 
+/*Call to action button for Projects and Contact pages*/
+.center-button {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically (optional if you want vertical centering) */
+    width: 30%;              /* Make sure the anchor fills its container */
+    margin: 10px 35%;
+}
+
 /*Navigation*/
 
 .main-menu-item{
@@ -74,13 +83,13 @@ a {
 
 /* Change active nav-pills link background and text color */
 .nav-pills .nav-link.active {
-    background-color: #333333; /* your custom background color */
+    background-color: $primary-button-color; /* your custom background color */
     color: $primary-font-color !important; /* your custom text color */
   }
 
 /* Style dropdown items when active */
 .dropdown-menu .dropdown-item.active {
-    background-color: #333333;
+    background-color: $primary-button-color;
     color: $primary-font-color;
   }
 
@@ -102,10 +111,7 @@ a {
     align-items: center;      /* Center vertically (optional if you want vertical centering) */
     width: 30%;              /* Make sure the anchor fills its container */
     margin: 10px 35%;
-}
-
-.skill-logos{
-    background-color: gold;
+    font-size: 1.5rem;
 }
 
 /*Projects Page*/
