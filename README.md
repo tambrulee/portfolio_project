@@ -4,15 +4,13 @@
 
 ## About Project
 
-This portfolio website was created to showcase my skills, as well as my past and ongoing projects. It serves both as a way to attract prospective recruiters and as a space to share future work. I also hope it will encourage potential collaborators to connect with me on upcoming projects.
+This portfolio website showcases my skills and highlights both past and ongoing projects. It's designed to attract recruiters, share future work, and invite collaboration on upcoming ideas.
 
-The website features an anime-inspired theme, using a Studio Ghibli-style illustration that I generated with DALL-E through ChatGPT.
+The site features an anime-inspired aesthetic, including a Studio Ghibli-style illustration generated via DALL·E through ChatGPT, based on a real-life photo of me.
 
-In addition to web development, I wanted to highlight my design work to differentiate myself from other developers — blending technical skills with creative flair and giving a glimpse of my personality.
+Beyond web development, I’ve included design work to set myself apart—blending technical ability with creative flair and offering a glimpse of my personality.
 
-For this project, I used HTML5, CSS3, Bootstrap, and SCSS. My use of SCSS is currently limited as I’m still learning, but I plan to expand on it in future projects. Typography is set using Bebas Neue and Avenir, both sourced from Google Fonts.
-
-The AI-generated images were created by converting a real-life photo of myself.
+The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue and Avenir, sourced from Google Fonts.
 
 <img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
 
@@ -46,11 +44,11 @@ The AI-generated images were created by converting a real-life photo of myself.
 
 ## User Stories
 
-These are the user stories alongside acceptance critera which served as the basis for the design. I wanted the project to take into consideration non-technical and technical users, therefore I kept the overall language and layout quite simple. I have also created a clear workflow between the homepage, projects and contacts pages through call to action buttons. 
+These user stories and acceptance criteria formed the foundation of the design. I aimed to keep the language and layout simple to cater to both technical and non-technical users. Clear call-to-action buttons guide users seamlessly between the homepage, projects, and contact pages.
 
-There are also links to Github which allows technical users to find out about my work via my reposititories. External link to Linked In allows hiring managers and recruiters to quickly scan my resume before reaching out to me. 
+GitHub links allow technical users to explore my code, while a LinkedIn link offers recruiters a quick way to review my resume and reach out.
 
-Overall the website is quite compact and makes good use of space without being overcrowded. It allows the reader to find out about me quickly and move through my site to view my work.
+The site is compact and efficiently designed, making it easy for visitors to learn about me and navigate to my work without feeling overwhelmed.
 
 ### 1. Hiring Manager Reviewing My Portfolio
 
@@ -208,10 +206,11 @@ Front page spyscroll - Code does not show button and highlights blue
 
 ## Attribution
 
-Bootstrap
+### Bootstrap
 
 Navigation
 Footer
 Mobile Responsiveness
 Scrollspy
 Accordian
+
