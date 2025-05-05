@@ -1,289 +1,287 @@
-
-/* Variables*/
+/*----------------------------------------------
+  VARIABLES
+----------------------------------------------*/
 $primary-font: Bebas Neue, sans-serif;
 $seconday-font: Avenir, sans-serif;
 $primary-font-color: white;
 $primary-button-color: #333333;
 
+/*----------------------------------------------
+  GLOBAL STYLES
+----------------------------------------------*/
 
-/*Global style*/
-
-/*Global font and font size*/
-*{
-    font-family: $primary-font;
-    font-size: 14px;
+/* Base font for all elements */
+* {
+  font-family: $primary-font;
+  font-size: 14px;
 }
 
-/*Global fonts and font colours for paragraph and list items*/
-p, li{
-    font-family: $seconday-font;
-    color: $primary-font-color;
+/* Font and color for paragraphs and list items */
+p, li {
+  font-family: $seconday-font;
+  color: $primary-font-color;
 }
 
-/*Global fonts and font colours for paragraph and list items*/
-h2{
-    color: $primary-font-color;
-    text-align: center;
-    padding-top: 10px;
+/* Style for all h2 elements */
+h2 {
+  color: $primary-font-color;
+  text-align: center;
+  padding-top: 10px;
 }
 
+/* Remove underlines from all links */
 a {
-    text-decoration: none; /* Remove the underline */
+  text-decoration: none;
 }
 
-/*Navigation*/
+/*----------------------------------------------
+  NAVIGATION BAR
+----------------------------------------------*/
 
+/* Navbar styling */
 .custom-navbar {
-    position: absolute;
-    width: 100vw;
-    background-color: #17181989; 
-  }
-
-
-  .custom-navbar .navbar-brand,
-.custom-navbar .nav-link {
-  color: white !important; /* light text */
+  position: absolute; // Sticks to top
+  width: 100vw;       // Full width
+  background-color: #17181989; // Semi-transparent background
 }
 
-.custom-navbar .nav-link:hover {
-  color: #548d67 !important; /* gold on hover */
+/* Navbar link and brand colors */
+.navbar-brand, .custom-navbar, .nav-link {
+  color: white !important;
 }
 
-.navbar-toggler{
-    background-color: rgba(255, 255, 255, 0.687);
+/* Navbar hover effect */
+.custom-navbar, .nav-link:hover, .navbar-brand:hover {
+  color: #548d67 !important; // Green on hover
 }
 
-.main-menu-item{
-    font-size: 2rem;
+/* Toggler button background */
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.687);
 }
 
-
-
-/*This will be under the text below the hero image on each page*/
-#hero-text{
-    background: url('../images/main\ img_bg.png')no-repeat center center/cover;
-    position: relative;
-    padding: 10px 1rem;
-    max-width: 100vw;
-  
+/* Main nav item font size */
+.main-menu-item {
+  font-size: 2rem;
 }
 
-#hero-text, #hero-img{
-    min-height: 300px;
+/*----------------------------------------------
+  HERO TEXT SECTION (under image banner)
+----------------------------------------------*/
+
+#hero-text {
+  background: url('../images/main\ img_bg.png') no-repeat center center/cover;
+  position: relative;
+  padding: 10px 1rem;
+  max-width: 100vw;
 }
 
-/*Call to action button*/
+/* Hero text and image sizing */
+#hero-text, #hero-img {
+  min-height: 300px;
+}
+
+/*----------------------------------------------
+  CALL-TO-ACTION BUTTON
+----------------------------------------------*/
+
 .call-to-action-btn {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically (optional if you want vertical centering) */
-    width: 40%;              /* Make sure the anchor fills its container */
-    margin: 10px 30%;
-    font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10px 30%;
+  font-size: 18px;
 }
 
-/*Spyscroll*/
+/*----------------------------------------------
+  SCROLLSPY NAVIGATION (e.g. project page)
+----------------------------------------------*/
 
-.btn-primary{
-    background-color: $primary-button-color;
-    border: $primary-button-color;
-}
-.navbar-example2{
-    background-color: #3d4143ae;
-    color: $primary-font-color;
+.btn-primary {
+  background-color: $primary-button-color;
+  border: $primary-button-color;
 }
 
-#navbar-title{
-    text-align: center;
+.navbar-example2 {
+  background-color: #3d4143ae;
+  color: $primary-font-color;
 }
 
-.navbar-example2 h4{
-    margin-top: 20px;
-    font-size: 3rem;
+#navbar-title {
+  text-align: center;
 }
 
-.navbar-example2 a{
-    font-size: 1.5rem;
+.navbar-example2 h4 {
+  margin-top: 20px;
+  font-size: 3rem;
 }
 
+.navbar-example2 a {
+  font-size: 1.5rem;
+}
 
-
-/* Change active nav-pills link background and text color */
+/* Highlight active nav link */
 .nav-pills .nav-link.active {
-    background-color: $primary-button-color; /* your custom background color */
-    color: $primary-font-color !important; /* your custom text color */
-  }
+  background-color: $primary-button-color;
+  color: $primary-font-color !important;
+}
 
-/* Style dropdown items when active */
+/* Active dropdown item */
 .dropdown-menu .dropdown-item.active {
-    background-color: $primary-button-color;
+  background-color: $primary-button-color;
+  color: $primary-font-color;
+}
+
+/*----------------------------------------------
+  HERO IMAGES ON DIFFERENT PAGES
+----------------------------------------------*/
+
+.hero-img {
+  background: url("../images/About.png") no-repeat center center/cover;
+  min-height: 400px;
+  max-width: 100vw;
+  margin-bottom: 0;
+}
+
+/* Homepage hero */
+#hero-img-about {
+  background: url("../images/About.png") no-repeat center center/cover;
+}
+
+/* Projects page hero */
+#hero-img-projects {
+  background: url("../images/Projects.png") no-repeat center center/cover;
+}
+
+/* Contact page hero */
+#hero-img-contact {
+  background: url("../images/Contact.png") no-repeat center center/cover;
+}
+
+/*----------------------------------------------
+  PROJECT PAGE: SCROLLSPY LINKS
+----------------------------------------------*/
+
+.project-links {
+  color: $primary-font-color;
+  margin-bottom: 100px;
+}
+
+.nav-link-projects, #navbar-title {
+  color: $primary-font-color;
+}
+
+#nav-button-project, #navbar-dropdown-project {
+  background-color: #3d4143;
+  color: $primary-font-color;
+}
+
+/*----------------------------------------------
+  ACCORDION COMPONENT (Contact Page)
+----------------------------------------------*/
+
+$accordion-border-color: #3d4143ae;
+
+.accordion {
+  .accordion-item {
+    background-color: #333333d9;
     color: $primary-font-color;
+    border-color: $accordion-border-color;
+
+    .accordion-header {
+      background-color: 333333;
+      color: $primary-font-color;
+    }
+
+    .accordion-title {
+      padding: 10px 10px;
+    }
+
+    .accordion-button {
+      background-color: $primary-font-color;
+      color: $primary-font-color;
+      border: none;
+
+      &.collapsed {
+        background-color: #bfceb881;
+      }
+
+      &:not(.collapsed) {
+        background-color: #436633b4;
+      }
+    }
+
+    .accordion-collapse {
+      background-color: #3d4143ae;
+      color: $primary-font-color;
+    }
+  }
+}
+
+/*----------------------------------------------
+  FOOTER STYLING
+----------------------------------------------*/
+
+#footer-text {
+  font-family: $primary-font;
+  font-size: 2rem;
+}
+
+.footer-links {
+  color: $primary-font-color;
+}
+
+footer i {
+  font-size: 2rem;
+  padding: 0 20px;
+}
+
+/*----------------------------------------------
+  NAVBAR BRAND SIZING
+----------------------------------------------*/
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+/*----------------------------------------------
+  RESPONSIVE MEDIA QUERIES
+----------------------------------------------*/
+
+/* Min width: 395px */
+@media screen and (min-width: 395px) {
+  .call-to-action-btn {
+    max-width: 150px;
+    margin: 10px 35%;
   }
 
-/*Main image on page*/
-.hero-img{
+  .hero-img {
     background: url("../images/About.png") no-repeat center center/cover;
     min-height: 400px;
     max-width: 100vw;
     margin-bottom: 0;
-    
+  }
 }
 
-/*Homepage*/
-
-/*Hero Image*/
-#hero-img-about{
-    background: url("../images/About.png") no-repeat center center/cover; 
-}
-
-/*Projects Page*/
-
-/*Hero Image*/
-#hero-img-projects{
-    background: url("../images/Projects.png") no-repeat center center/cover;
-}
-
-/*Project Page - Spyscroll*/
-
-.project-links{
-    color: $primary-font-color;
-    margin-bottom: 100px;
-}
-
-.nav-link-projects, #navbar-title{
-    color: $primary-font-color;
-}
-
-#nav-button-project, #navbar-dropdown-project{
-    background-color: #3d4143;
-    color: $primary-font-color;
-}
-
-
-/*Contact Page*/
-
-/*Hero Image*/
-#hero-img-contact{
-    background: url("../images/Contact.png") no-repeat center center/cover;
-}
-
-/*Accordian Variables*/
-$accordion-border-color: #3d4143ae;
-
-.accordion {
-
-   
-    .accordion-item {
-      background-color: #333333d9;; // Set the background color of each accordion item
-      color: $primary-font-color; // Set text color to white
-      border-color: $accordion-border-color;
-  
-      .accordion-header {
-        background-color: 333333; // Background color for the header
-        color: $primary-font-color; // Text color for the header
-       
-      }
-
-      .accordion-title {
-        padding: 10px 10px;
-        
-      }
-  
-      .accordion-button {
-        background-color: $primary-font-color; // Default background color for the button
-        color: $primary-font-color; // Default text color for the button
-        border: none; // Remove button border for cleaner design
-  
-        // When the button is clicked (active state), change the background
-        &.collapsed {
-          background-color: #bfceb881; // Background color when collapsed
-        }
-  
-        &:not(.collapsed) {
-          background-color: #436633b4; // Background color when expanded (active)
-        }
-      }
-  
-      .accordion-collapse {
-        background-color: #3d4143ae; // Background color of the accordion content area
-        color: $primary-font-color; // Text color inside the content area
-      }
-    }
+/* Min width: 570px */
+@media screen and (min-width: 570px) {
+  .hero-img {
+    min-height: 600px;
   }
 
-  
-  
-/*Footer*/
+  #hero-img-contact {
+    height: 700px;
+  }
 
-#footer-text{
-    font-family: $primary-font;
+  .hero-contact {
+    min-height: 400px;
+  }
 }
 
-.footer-links{
-    color: $primary-font-color;
-}
-
-/*Increases footer text size*/
-#footer-text {
-    font-size: 2rem;
-}
-/*Increases footer badges size*/
-footer i {
-    font-size: 2rem; /* Or any size you prefer */  
-    padding: 0 20px;
-}
-  
-/*Increases brand size on nav*/
-.navbar-brand{
-    font-size: 2rem;
-}
-
-
-/* Media query: landscape phones and larger (395px and up) */
-@media screen and (min-width: 395px) {
-    .call-to-action-btn {
-        max-width: 150px;              /* Make sure the anchor fills its container */
-        margin: 10px 35%;
-    }
-
-    .hero-img{
-        background: url("../images/About.png") no-repeat center center/cover;
-        min-height: 400px;
-        max-width: 100vw;
-        margin-bottom: 0;  
-    }
-
-}
-
-/* Media query: landscape phones and larger (570px and up) */
-@media screen and (min-width: 570px) {
-
-
-/*Increases hero image size*/
-
-    .hero-img{
-        min-height: 600px;
-    }
-
-    #hero-img-contact{
-        height: 700px;
-    }
-
-    .hero-contact{
-        min-height: 400px;
-    }
-
-}
-
-/* Media query: landscape phones and larger (992px and up) */
+/* Min width: 990px */
 @media screen and (min-width: 990px) {
-
-    .hero-img{
-        min-height: 900px;
-    }
-
-    .scrollspy-example{
-        min-height: 650px;
-    }
-
+  .hero-img {
+    min-height: 900px;
+  }
 }
