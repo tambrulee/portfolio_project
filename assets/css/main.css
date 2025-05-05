@@ -1,16 +1,18 @@
-
 /* Variables*/
 /*Global style*/
+/*Global font and font size*/
 * {
   font-family: Bebas Neue, sans-serif;
   font-size: 14px;
 }
 
-p, ul > li {
+/*Global fonts and font colours for paragraph and list items*/
+p, li {
   font-family: Avenir, sans-serif;
   color: white;
 }
 
+/*Global fonts and font colours for paragraph and list items*/
 h2 {
   color: white;
   text-align: center;
@@ -22,6 +24,25 @@ a {
 }
 
 /*Navigation*/
+.custom-navbar {
+  position: absolute;
+  width: 100vw;
+  background-color: rgba(23, 24, 25, 0.537254902);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white !important; /* light text */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #548d67 !important; /* gold on hover */
+}
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.687);
+}
+
 .main-menu-item {
   font-size: 2rem;
 }
@@ -214,5 +235,3 @@ footer i {
     min-height: 650px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

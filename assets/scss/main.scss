@@ -1,3 +1,4 @@
+
 /* Variables*/
 $primary-font: Bebas Neue, sans-serif;
 $seconday-font: Avenir, sans-serif;
@@ -7,16 +8,19 @@ $primary-button-color: #333333;
 
 /*Global style*/
 
+/*Global font and font size*/
 *{
     font-family: $primary-font;
     font-size: 14px;
 }
 
-p, ul>li{
+/*Global fonts and font colours for paragraph and list items*/
+p, li{
     font-family: $seconday-font;
     color: $primary-font-color;
 }
 
+/*Global fonts and font colours for paragraph and list items*/
 h2{
     color: $primary-font-color;
     text-align: center;
@@ -29,9 +33,30 @@ a {
 
 /*Navigation*/
 
+.custom-navbar {
+    position: absolute;
+    width: 100vw;
+    background-color: #17181989; 
+  }
+
+
+  .custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white !important; /* light text */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #548d67 !important; /* gold on hover */
+}
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.687);
+}
+
 .main-menu-item{
     font-size: 2rem;
 }
+
 
 
 /*This will be under the text below the hero image on each page*/
@@ -100,7 +125,8 @@ a {
     background: url("../images/About.png") no-repeat center center/cover;
     min-height: 400px;
     max-width: 100vw;
-    margin-bottom: 0;  
+    margin-bottom: 0;
+    
 }
 
 /*Homepage*/

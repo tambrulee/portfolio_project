@@ -122,7 +122,7 @@ I decided to use the Scrollspy feature after applying it to the Project page and
 
 **Wire Frames**
 
-Initally, 
+I drew up some rough wireframes. The final outcome came out quite close to the mockups, except less white space. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile optimised.
 
 <img src="assets/images/README/Wireframes/Mobile_view.png">
 <img src="assets/images/README/Wireframes/Front_page.png">
@@ -138,7 +138,7 @@ Initally,
 
 ### 2. Projects
 
-Second website page which contains some of my ongoing projects.
+Second website page which contains some of my ongoing projects. It uses a scrollspy with a navigation so that the person viewing my website can easily find each project.
 
 <img src="assets/images/README/Finished Pages/Projects Page - Finished.png">
 
@@ -147,8 +147,6 @@ Second website page which contains some of my ongoing projects.
 
 **Features**
 - A Bootstrap scrollspy window
-
-
 
 ### 3. Contact / Connect
 
@@ -161,10 +159,8 @@ A quick, simple way for people to reach you or connect further.
 
 **Features:**
 - A friendly message  
-  _e.g. “Let’s work together or just say hi 👋”_
 - Email address
 - LinkedIn / GitHub / other socials
-- Footer with your name and year
 
 
 ## Testing
@@ -207,10 +203,5 @@ Front page spyscroll - Code does not show button and highlights blue
 ## Attribution
 
 ### Bootstrap
-
-Navigation
-Footer
-Mobile Responsiveness
-Scrollspy
-Accordian
+The portfolio heavily depends on Bootstrap for mobile responsiveness. The Navigation, Footer, Scrollspy, Accordian all came from the Bootstrap library. 
 
