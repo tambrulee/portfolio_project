@@ -168,13 +168,18 @@ a {
 /*----------------------------------------------
   ACCORDION COMPONENT (Contact Page)
 ----------------------------------------------*/
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .accordion .accordion-item {
   background-color: rgba(51, 51, 51, 0.8509803922);
   color: white;
   border-color: rgba(61, 65, 67, 0.6823529412);
 }
 .accordion .accordion-item .accordion-header {
-  background-color: 333333;
+  background-color: #333333;
   color: white;
 }
 .accordion .accordion-item .accordion-title {

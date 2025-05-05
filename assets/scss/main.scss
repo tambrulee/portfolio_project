@@ -183,6 +183,11 @@ a {
 
 $accordion-border-color: #3d4143ae;
 
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .accordion {
   .accordion-item {
     background-color: #333333d9;
@@ -190,7 +195,7 @@ $accordion-border-color: #3d4143ae;
     border-color: $accordion-border-color;
 
     .accordion-header {
-      background-color: 333333;
+      background-color: #333333;
       color: $primary-font-color;
     }
 
