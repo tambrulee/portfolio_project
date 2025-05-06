@@ -4,13 +4,13 @@
 
 ## About Project
 
-This portfolio website showcases my skills and highlights both past and ongoing projects. It's designed to attract recruiters, share future work, and invite collaboration on upcoming ideas.
+This portfolio showcases my web development skills, featuring both completed and ongoing projects. It's designed to appeal to recruiters, collaborators, and fellow developers by blending creativity with technical ability.
 
 The site features an anime-inspired aesthetic, including a Studio Ghibli-style illustration generated via DALL·E through ChatGPT, based on a real-life photo of me.
 
 Beyond web development, I’ve included design work to set myself apart—blending technical ability with creative flair and offering a glimpse of my personality.
 
-The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue and Avenir, sourced from Google Fonts.
+The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue and Avenir, the former was sourced from Google Fonts.
 
 <img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
 
@@ -30,10 +30,10 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 
 ## Built With
 
-### Techonologies
+### Technologies
 * HTML5 - Basic website structure, semantic markup and accessibility
 * CSS3 - General theme customisation
-* Bootstrap - Mobile responsive containers, navigation, footer, spyscroll and accordion
+* Bootstrap - Mobile responsive containers, navigation, footer, scrollspy and accordion
 * SCSS 
 
 ### Styling
@@ -122,7 +122,7 @@ I decided to use the Scrollspy feature after applying it to the Project page and
 
 **Wire Frames**
 
-I drew up some rough wireframes. The final outcome came out quite close to the mockups, except less white space. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile optimised.
+I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced whitespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile optimised.
 
 <img src="assets/images/README/Wireframes/Mobile_view.png">
 <img src="assets/images/README/Wireframes/Front_page.png">
@@ -133,7 +133,7 @@ I drew up some rough wireframes. The final outcome came out quite close to the m
 - Hero image
 - A short bio  
 - Key skills / tech stack badges  
-- Call to action button that leads to Projects page
+- Call-to-action button that leads to Projects page
 
 
 ### 2. Projects
@@ -198,7 +198,7 @@ A quick, simple way for people to reach you or connect further.
 
 ## Known Bugs
 
-Front page spyscroll - Code does not show button and highlights blue
+Front page scrollspy - Code does not show button and highlights blue
 
 ## Attribution
 Bootstrap
