@@ -38,6 +38,11 @@ a {
   background-color: rgba(23, 24, 25, 0.537254902);
 }
 
+/* Navbar Brand Sizing*/
+.navbar-brand {
+  font-size: 2rem;
+}
+
 /* Navbar link and brand colors */
 .navbar-brand, .custom-navbar, .nav-link {
   color: white !important;
@@ -191,10 +196,10 @@ a {
   border: none;
 }
 .accordion .accordion-item .accordion-button.collapsed {
-  background-color: rgba(191, 206, 184, 0.5058823529);
+  background-color: rgba(191, 206, 184, 0.3294117647);
 }
 .accordion .accordion-item .accordion-button:not(.collapsed) {
-  background-color: rgba(67, 102, 51, 0.7058823529);
+  background-color: rgba(67, 102, 51, 0.3529411765);
 }
 .accordion .accordion-item .accordion-collapse {
   background-color: rgba(61, 65, 67, 0.6823529412);
@@ -216,13 +221,6 @@ a {
 footer i {
   font-size: 2rem;
   padding: 0 20px;
-}
-
-/*----------------------------------------------
-  NAVBAR BRAND SIZING
-----------------------------------------------*/
-.navbar-brand {
-  font-size: 2rem;
 }
 
 /*----------------------------------------------

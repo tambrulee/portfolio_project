@@ -45,6 +45,12 @@ a {
   background-color: #17181989; // Semi-transparent background
 }
 
+/* Navbar Brand Sizing*/
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
 /* Navbar link and brand colors */
 .navbar-brand, .custom-navbar, .nav-link {
   color: white !important;
@@ -209,11 +215,11 @@ $accordion-border-color: #3d4143ae;
       border: none;
 
       &.collapsed {
-        background-color: #bfceb881;
+        background-color: #bfceb854;
       }
 
       &:not(.collapsed) {
-        background-color: #436633b4;
+        background-color: #4366335a;
       }
     }
 
@@ -242,13 +248,6 @@ footer i {
   padding: 0 20px;
 }
 
-/*----------------------------------------------
-  NAVBAR BRAND SIZING
-----------------------------------------------*/
-
-.navbar-brand {
-  font-size: 2rem;
-}
 
 /*----------------------------------------------
   RESPONSIVE MEDIA QUERIES
