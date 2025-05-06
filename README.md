@@ -44,6 +44,22 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 * **Google Fonts** - Importing Avenir & Bebas Neue
 * **DALL-E** - AI-generated illustrations for a creative, personalized touch.
 
+### Importing SCSS
+For this project I imported SCSS. Although it isn't my first attempt, it is my first successful attempt.
+
+#### Errors
+There were several attempts to get SCSS to install and took quite a few tries, also . I used npm/ sudo to load SCSS. 
+
+* First issue was that I was trying to load SCSS into the wrong directory - I changed directory and this seemed to work
+<img src="assets/images/README/Code testing/Installing SCSS.png">
+<img src="assets/images/README/Code testing/Installing SCSS - 2.png">
+<img src="assets/images/README/Code testing/Installing SCSS-3.png">
+
+* Second issue was use of incorrect syntax when trying to watch SCSS - resolved with the assistance of ChatGPT.
+<img src="assets/images/README/Code testing/Installing SCSS - 6.png">
+<img src="assets/images/README/Code testing/Installing SCSS - 7.png">
+<img src="assets/images/README/Code testing/ChatGPT-sudo.png">
+
 ## User Stories
 
 These user stories and acceptance criteria formed the foundation of the design. I aimed to keep the language and layout simple to cater to both technical and non-technical users. Clear call-to-action buttons guide users seamlessly between the homepage, projects, and contact pages.
@@ -107,6 +123,15 @@ So that I can appreciate their skills and experience.
 - Brief descriptions of projects with real-world applications.
 - A visually engaging portfolio with screenshots or demos.
 
+## Wire Frames
+
+I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced whitespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
+
+<img src="assets/images/README/Wireframes/Mobile_view.png">
+<img src="assets/images/README/Wireframes/Front_page.png">
+<img src="assets/images/README/Wireframes/Projects_page.png">
+<img src="assets/images/README/Wireframes/Contact_page.png">
+
 ## Pages
 
 ### 1. Home / About Me
@@ -115,15 +140,7 @@ This is the landing page when the user first visits the website. It's split into
 
 I decided to use the Scrollspy feature after applying it to the Project page and liking the way it looked. In terms of UX, I thought it went well with the overall theme and made the information look nicely compact on the page.
 
-<img src="assets/images/README/Finished Pages/About Page - Finished.png">
-<img src="assets/images/README/Finished Pages/Tablet:Mobile View - About Page - Finished.png">
-
-**Wire Frames**
-
-I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced whitespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
-
-<img src="assets/images/README/Wireframes/Mobile_view.png">
-<img src="assets/images/README/Wireframes/Front_page.png">
+<img src="assets/images/README/Code testing/Mobile_responsiveness_home.png">
 
 **Features:**
 - Hero image
@@ -135,10 +152,7 @@ I drew up some rough wireframes. The final outcome came out quite close to the m
 
 This second page of the website showcases some of my ongoing projects. It uses a scrollspy with a navigation bar, so viewers can easily find each project and learn more about it.
 
-<img src="assets/images/README/Finished Pages/Projects Page - Finished.png">
-
-**Wire Frames**
-<img src="assets/images/README/Wireframes/Projects_page.png">
+<img src="assets/images/README/Code testing/Mobile_responsiveness_projects.png">
 
 **Features**
 - A Bootstrap scrollspy window for easy navigation.
@@ -148,20 +162,17 @@ This second page of the website showcases some of my ongoing projects. It uses a
 
 A quick, simple way for people to reach me or connect further.
 
-<img src="assets/images/README/Finished Pages/Contact Page - Finished.png">
-
-**Wire Frames**
-<img src="assets/images/README/Wireframes/Contact_page.png">
+<img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png">
 
 **Features:**
 - A friendly message welcoming visitors to get in touch.
 - My email address, LinkedIn, GitHub, and other social media links.
 
-## Testing
+## HTML Testing
 
-### HTML Test
-HTML was tested using: <a href="https://validator.w3.org/">Nu Html Checker</a>
-#### Fixing Errors
+* HTML was tested using: <a href="https://validator.w3.org/">Nu Html Checker</a>
+
+### Fixing Errors
 Here's a list of errors flagged up by the W3 tester and how I fixed them:
 
 * Removed '/' from all internal links to pages and files
@@ -179,16 +190,16 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 <img src="assets/images/README/Code testing/Page-testing-3.png">
 
 
-#### Home Page - Issues Fixed
+### Home Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.16.png">
 
-#### Projects Page - Issues Fixed
+### Projects Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.12.47.png">
 
-#### Contact Page - Issues Fixed
+### Contact Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.18.09.png">
 
-### CSS Test
+## CSS Testing
 
 HTML was tested using: <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation Service</a>
 
@@ -196,29 +207,29 @@ No errors or issues found with CSS
 
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.19.04.png">
 
-### Lighthouse Test
+## Lighthouse Testing
 
 I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
 
-#### Home Page - Lighthouse Test - Mobile
+### Home Page - Lighthouse Test - Mobile
 <img src="assets/images/README/Code testing/Lighthouse_home_mobile.png">
 
-#### Home Page - Lighthouse Test - Desktop
+### Home Page - Lighthouse Test - Desktop
 <img src="assets/images/README/Code testing/Lighthouse_home_desktop.png">
 
-#### Projects - Lighthouse Test - Mobile
+### Projects - Lighthouse Test - Mobile
 <img src="assets/images/README/Code testing/Lighthouse_projects_mobile.png">
 
-#### Projects - Lighthouse Test - Desktop
+### Projects - Lighthouse Test - Desktop
 <img src="assets/images/README/Code testing/Lighthouse_projects_desktop.png">
 
-#### Contact - Lighthouse Test - Mobile
+### Contact - Lighthouse Test - Mobile
 <img src="assets/images/README/Code testing/Lighthouse_contact_mobile.png">
 
-#### Contact - Lighthouse Test - Desktop
+### Contact - Lighthouse Test - Desktop
 <img src="assets/images/README/Code testing/Lighthouse_contact_desktop.png">
 
-### Mobile Responsiveness
+## Mobile Responsiveness
 I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a> tool to test the mobile responsiveness of each of my web pages.
 
 #### Home Page - Mobile Responsiveness
