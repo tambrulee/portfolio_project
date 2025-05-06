@@ -109,7 +109,7 @@ a {
   border: $primary-button-color;
 }
 
-.navbar-example2 {
+.main-scrollspy {
   background-color: #3d4143ae;
   color: $primary-font-color;
 }
@@ -118,13 +118,17 @@ a {
   text-align: center;
 }
 
-.navbar-example2 h4 {
+.main-scrollspy h4 {
   margin-top: 20px;
   font-size: 3rem;
 }
 
-.navbar-example2 a {
+.main-scrollspy a {
   font-size: 1.5rem;
+}
+
+#main-scrollspy-nav{
+  height: 100px;
 }
 
 /* Highlight active nav link */
@@ -291,4 +295,13 @@ footer i {
   .hero-img {
     min-height: 900px;
   }
+  .main-scrollspy{
+    height: 800px;
+  }
+
+  #main-scrollspy-nav{
+    height: 100px;
+    display: none;
+  }
 }
+
