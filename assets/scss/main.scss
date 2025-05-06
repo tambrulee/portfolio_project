@@ -4,6 +4,7 @@
 $primary-font: Bebas Neue, sans-serif;
 $seconday-font: Avenir, sans-serif;
 $primary-font-color: white;
+$secondary-font-color: #333333;
 $primary-button-color: #333333;
 
 /*----------------------------------------------
@@ -98,7 +99,10 @@ a {
   width: 40%;
   margin: 10px 30%;
   font-size: 18px;
+  color: $secondary-font-color;
 }
+
+
 
 /*----------------------------------------------
   SCROLLSPY NAVIGATION (e.g. project page)

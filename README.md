@@ -174,12 +174,31 @@ A quick, simple way for people to reach me or connect further.
 
 ### CSS Test
 
+No errors or issues found with CSS
+
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.19.04.png">
 
 ### Lighthouse Test
 
-<img src="assets/images/README/Code testing/Lighthouse Testing.png">
-<img src="assets/images/README/Code testing/Lighthouse testing 2.png">
+I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
+
+#### Home Page - Lighthouse Test - Mobile
+<img src="assets/images/README/Code testing/Lighthouse_home_mobile.png">
+
+#### Home Page - Lighthouse Test - Desktop
+<img src="assets/images/README/Code testing/Lighthouse_home_desktop.png">
+
+#### Projects - Lighthouse Test - Mobile
+<img src="assets/images/README/Code testing/Lighthouse_projects_mobile.png">
+
+#### Projects - Lighthouse Test - Desktop
+<img src="assets/images/README/Code testing/Lighthouse_projects_desktop.png">
+
+#### Contact - Lighthouse Test - Mobile
+<img src="assets/images/README/Code testing/Lighthouse_contact_mobile.png">
+
+#### Contact - Lighthouse Test - Desktop
+<img src="assets/images/README/Code testing/Lighthouse_contact_desktop.png">
 
 ### Mobile Responsiveness
 I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a> tool to test the mobile responsiveness of each of my web pages.
