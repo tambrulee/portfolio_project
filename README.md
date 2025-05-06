@@ -160,19 +160,37 @@ A quick, simple way for people to reach me or connect further.
 ## Testing
 
 ### HTML Test
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.42.41.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.08.png">
+HTML was tested using: <a href="https://validator.w3.org/">Nu Html Checker</a>
+#### Fixing Errors
+Here's a list of errors flagged up by the W3 tester and how I fixed them:
+
+* Removed '/' from all internal links to pages and files
+* Closed main tag
+* Closed all div elements
+* Added spaces between attributes 
+<img src="assets/images/README/Code testing/Page-testing-1.png">
+
+* Removed all duplicate IDs and replaced them with classes where appropriate
+
+<img src="assets/images/README/Code testing/Page-testing-2.png">
+
+* Recoded all sections where there was a button tag nested within an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
+
+<img src="assets/images/README/Code testing/Page-testing-3.png">
+
+
+#### Home Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.16.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.54.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.54.04.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.54.12.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.02.32.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.02.39.png">
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.10.15.png">
+
+#### Projects Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.12.47.png">
+
+#### Contact Page - Issues Fixed
 <img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.18.09.png">
 
 ### CSS Test
+
+HTML was tested using: <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation Service</a>
 
 No errors or issues found with CSS
 
@@ -222,6 +240,8 @@ First deployment was unsuccessful. The index.html (Home) page was loading but th
 As per above, the second attempt was successful and the website is no successfully deployed. Check it out here:
 
 <a href="https://tambrulee.github.io/Portfolio_Project/index.html">Click here to view my deployed website in GitHub</a>
+
+<img src="assets/images/README/Code testing/GitHub - Deployed.png">
 
 ## Known Bugs
 
