@@ -201,6 +201,7 @@ A quick, simple way for people to reach you or connect further.
 Front page spyscroll - Code does not show button and highlights blue
 
 ## Attribution
+Bootstrap
 
 ### Bootstrap
 The portfolio heavily depends on Bootstrap for mobile responsiveness. The Navigation, Footer, Scrollspy, Accordian all came from the Bootstrap library. 

@@ -1,83 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Page Setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!--Meta Description and Keywords for SEO-->
-    <meta name="description"
-    content="Hi, I'm Tamsin a junior web developer building clean, creative, and functional websites. Check out my work!">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Hi, I'm Tamsin a junior web developer building clean, creative, and functional websites. Check out my work!">
     <meta name="keywords" content="web developer, junior developer, frontend developer, portfolio, HTML, CSS, JavaScript, React, GitHub, coding projects, Tamsin Te-Strote">
     
-    <!--Website Title-->
+    <!-- Page Title -->
     <title>Tamsin Te-Strote: Contact</title>
 
-    <!--Favicon-->
+    <!-- Favicon Setup -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav_icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav_icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav_icon.png">
 
-    <!--Bootstrap CSS-->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
-    <!--Custom CSS-->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <!--Google Fonts importing Bebas Neue-->
+    <!-- Google Fonts: Bebas Neue -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
 </head>
+
 <body>
   <header>
-
-    <!--Nav Bar-->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid">
-          <a aria-label="Click here to back to the homepage" class="navbar-brand" href="index.html">Tamsin Te-Strote</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a aria-label="Follow this link to view my all projects" class="nav-link main-menu-item" href="Projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a aria-label="Click here to get in contact" class="nav-link active main-menu-item" aria-current="page" href="Contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <!-- Brand Name/Home Link -->
+            <a aria-label="Click here to go back to the homepage" class="navbar-brand" href="index.html">Tamsin Te-Strote</a>
 
-</header>
-    <main>
-      <!--Main Body-->
+            <!-- Toggler for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-label="Follow this link to view my projects" class="nav-link main-menu-item" href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a aria-label="Click here to get in contact" class="nav-link active main-menu-item" aria-current="page" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+
   <main>
+    <!-- Contact Section Layout -->
     <div class="container-fluid">
       <div class="row hero-contact">
+        
+        <!-- Image Side -->
         <div class="col-12 col-lg-6 hero-img" id="hero-img-contact"></div>
+
+        <!-- Contact Options Side -->
         <div class="col-12 col-lg-6" id="hero-text">
-          <!--Accordion-->
+
+          <!-- Accordion Container -->
           <div class="accordion" id="accordionExample">
+
+            <!-- Accordion Item 1: Work With Me -->
             <div class="accordion-item">
               <h2 class="accordion-title">Get in contact</h2>
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Work with me
-                </button>
-              </h2>
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Work with me
+              </button>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>Looking for a developer to join your team or contribute to a project? Let's talk!</strong> 
-                  <a href="mailto: thamiltontestrote@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <p class="accordion-body"><i class="fa-solid fa-square-envelope footer-links"></i> Email me</p>
-                </a>
+                  <a href="mailto:thamiltontestrote@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <p class="accordion-body">
+                      <i class="fa-solid fa-square-envelope footer-links"></i> Email me
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
+
+            <!-- Accordion Item 2: LinkedIn -->
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -88,10 +100,15 @@
                 <div class="accordion-body">
                   <strong>Let’s grow our networks — follow or message me on LinkedIn.</strong> 
                   <a href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank" rel="noopener noreferrer">
-                    <p class="accordion-body"><i class="fa-brands fa-linkedin footer-links"></i> LinkedIn</p> </a>
+                    <p class="accordion-body">
+                      <i class="fa-brands fa-linkedin footer-links"></i> LinkedIn
+                    </p> 
+                  </a>
                 </div>
               </div>
             </div>
+
+            <!-- Accordion Item 3: GitHub -->
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -102,32 +119,39 @@
                 <div class="accordion-body">
                   <strong>Explore the kind of stuff I build and contribute to on GitHub.</strong> 
                   <p class="accordion-body">
-                    <i class="fa-brands fa-github footer-links"></i> 
-                    GitHub</p>  
+                    <i class="fa-brands fa-github footer-links"></i> GitHub
+                  </p>  
                 </div>
               </div>
             </div>
-            
-      </div>
-      </div>
-        
-    </main>
 
-    <!--Footer/Bootstrap-->
+          </div> <!-- End of Accordion -->
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <footer class="bg-dark text-white text-center py-3">
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white text-center py-3">
       <p id="footer-text">&copy; 2025 Tamsin Te-Strote</p>
-      <a aria-label="Visit my LinkedIn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank"><i class="fa-brands fa-linkedin footer-links"></i></a>
-      <a aria-label="Visit my GitHub Repositories" href="https://github.com/tambrulee" target="_blank"><i class="fa-brands fa-github footer-links"></i></a>
-      <a aria-label="Click here to send me an email" href="mailto:thamiltontestrote@gmail.com/" target="_blank"><i class="fa-solid fa-square-envelope footer-links"></i></a>
+
+      <!-- Social Icons -->
+      <a aria-label="Visit my LinkedIn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank">
+        <i class="fa-brands fa-linkedin footer-links"></i>
+      </a>
+      <a aria-label="Visit my GitHub Repositories" href="https://github.com/tambrulee" target="_blank">
+        <i class="fa-brands fa-github footer-links"></i>
+      </a>
+      <a aria-label="Click here to send me an email" href="mailto:thamiltontestrote@gmail.com/" target="_blank">
+        <i class="fa-solid fa-square-envelope footer-links"></i>
+      </a>
   </footer>
 
+  <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/40f053d397.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/40f053d397.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
