@@ -82,13 +82,13 @@ a {
   CALL-TO-ACTION BUTTON
 ----------------------------------------------*/
 .call-to-action-btn {
+  color: #333333;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
-  margin: 10px 30%;
   font-size: 18px;
-  color: #333333;
+  margin: 20px 35%;
 }
 
 /*----------------------------------------------
@@ -118,7 +118,7 @@ a {
 }
 
 #main-scrollspy-nav {
-  height: 100px;
+  height: 75px;
 }
 
 /* Highlight active nav link */
@@ -163,7 +163,6 @@ a {
 ----------------------------------------------*/
 .project-links {
   color: white;
-  margin-bottom: 100px;
 }
 
 .nav-link-projects, #navbar-title {
@@ -240,7 +239,7 @@ footer i {
 @media screen and (min-width: 395px) {
   .call-to-action-btn {
     max-width: 150px;
-    margin: 10px 35%;
+    margin: 20px 35%;
   }
   .hero-img {
     background: url("../images/About.png") no-repeat center center/cover;

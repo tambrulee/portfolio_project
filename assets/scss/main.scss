@@ -93,13 +93,13 @@ a {
 ----------------------------------------------*/
 
 .call-to-action-btn {
+  color: $secondary-font-color;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
-  margin: 10px 30%;
   font-size: 18px;
-  color: $secondary-font-color;
+  margin: 20px 35%;
 }
 
 
@@ -132,7 +132,7 @@ a {
 }
 
 #main-scrollspy-nav{
-  height: 100px;
+  height: 75px;
 }
 
 /* Highlight active nav link */
@@ -179,7 +179,7 @@ a {
 
 .project-links {
   color: $primary-font-color;
-  margin-bottom: 100px;
+  
 }
 
 .nav-link-projects, #navbar-title {
@@ -268,7 +268,8 @@ footer i {
 @media screen and (min-width: 395px) {
   .call-to-action-btn {
     max-width: 150px;
-    margin: 10px 35%;
+    margin: 20px 35%;
+
   }
 
   .hero-img {
