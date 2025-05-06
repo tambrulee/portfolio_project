@@ -178,6 +178,10 @@ a {
   outline: none !important;
 }
 
+strong {
+  font-family: Avenir, sans-serif;
+}
+
 .accordion .accordion-item {
   background-color: rgba(51, 51, 51, 0.8509803922);
   color: white;
@@ -194,6 +198,7 @@ a {
   background-color: white;
   color: white;
   border: none;
+  font-size: 20px;
 }
 .accordion .accordion-item .accordion-button.collapsed {
   background-color: rgba(191, 206, 184, 0.3294117647);

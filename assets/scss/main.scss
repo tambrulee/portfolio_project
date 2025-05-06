@@ -193,7 +193,9 @@ $accordion-border-color: #3d4143ae;
   box-shadow: none !important;
   outline: none !important;
 }
-
+strong{
+  font-family: Avenir, sans-serif;
+}
 .accordion {
   .accordion-item {
     background-color: #333333d9;
@@ -213,6 +215,7 @@ $accordion-border-color: #3d4143ae;
       background-color: $primary-font-color;
       color: $primary-font-color;
       border: none;
+      font-size: 20px;
 
       &.collapsed {
         background-color: #bfceb854;
