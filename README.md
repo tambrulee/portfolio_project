@@ -30,11 +30,6 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 
 **Hero image for contact page**
 
-## Versions
-1.0 - Original Version deployed to GitHub - May 9th
-1.1 - Fixes scrollspy issues and incorrect links on project page
-
-
 ## Built With
 
 ### Technologies
@@ -81,6 +76,7 @@ So that I can determine if they are a good fit for the role.
 
 **Acceptance Criteria:**
 - A clear and concise "About Me" section.
+
 - A well-organized list of projects with descriptions, technologies used, and links to code/demo.
 - A section highlighting key skills and certifications.
 
@@ -246,13 +242,25 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 #### Contact Page - Mobile Responsiveness
 <img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png">
 
-## Deployment
+## GitHub
 
-### Test 1
+### Connecting to GitHub via VS Code
+
+- I downloaded GitHub Codespaces
+
+- Once connected I could connect to my repositories in GitHub
+
+- I used the interactive panel to do my commits and to push my commits to Git Hub
+
+### Deployment
+
+- In GitHub I ensured my project was set to public and then deployed via the root 
+
+#### Test 1
 First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again which worked.
 <img src="assets/images/README/Code testing/Deployment to GitHub.png">
 
-### Test 2
+#### Test 2
 As per above, the second attempt was successful and the website is no successfully deployed. Check it out here:
 
 <a href="https://tambrulee.github.io/Portfolio_Project/index.html">Click here to view my deployed website in GitHub</a>
