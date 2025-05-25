@@ -266,10 +266,12 @@ footer i {
     min-height: 900px;
   }
   .main-scrollspy {
-    height: 800px;
+    position: relative;
+    top: 0px;
+    min-height: 800px;
   }
   #main-scrollspy-nav {
     height: 100px;
     display: none;
   }
-}
+}/*# sourceMappingURL=main.css.map */
