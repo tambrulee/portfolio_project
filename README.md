@@ -30,6 +30,11 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 
 **Hero image for contact page**
 
+## Versions
+1.0 - Original Version deployed to GitHub - May 9th
+1.1 - Fixes scrollspy issues and incorrect links on project page
+
+
 ## Built With
 
 ### Technologies
@@ -258,6 +263,9 @@ As per above, the second attempt was successful and the website is no successful
 
 ### Main navigation bar 
 The navigation bar does not stretch all the way across the top of the screen at a 990px (min-width) and upwards resolution. This is an unintended glitch, but overall, it doesn't detract from the usability or the overall look of the website.
+
+### Scrollspy buttons - Project page
+Making the scrollspy buttons on the Project page disappear at 900px (min width) was a design choice as the container fit the screen and the buttons became redundant.
 
 ## Attribution
 
