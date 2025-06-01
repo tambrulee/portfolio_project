@@ -254,7 +254,34 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 ### Deployment
 
-- In GitHub I ensured my project was set to public and then deployed via the root 
+* First I created a folder for my project on my local hard drive
+<br>
+<img src="assets/images/README/GitHub Deployment/local_files.png">
+<br><br>
+
+* Then I installed GitHub Codespaces into VS Code
+<br>
+<img src="assets/images/README/GitHub Deployment/codespaces_install.png">
+<br><br>
+
+* From there I was able to write my first few files. Write my commits and push my work via the interface in source control which provides easy to use commit, push and pull buttons.
+<br>
+<img src="assets/images/README/GitHub Deployment/source_control.png">
+<br><br>
+
+* I could then check GitHub which was updating with each push as expected. 
+<br>
+<img src="assets/images/README/GitHub Deployment/github_files.png">
+<br><br>
+
+* To deploy the project I used Pages section in my GitHub project which I used throughout the creative process to ensure the project was being deployed correctly. I did have an
+<br>
+<img src="assets/images/README/GitHub Deployment/github_pages.png">
+<br><br>
+
+*  Here is my project deployed in GitHub. I did have some issues with setup at first, then after researching the issue I realised that my project was set to private to I  set it to public. Further issue images not showing and links going to a 404 page, this was resolved by removing the first '/' out of the links. 
+<br>
+<img src="assets/images/README/GitHub Deployment/github_deploy.png">
 
 #### Test 1
 First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again which worked.
