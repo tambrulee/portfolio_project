@@ -242,6 +242,10 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 #### Contact Page - Mobile Responsiveness
 <img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png">
 
+
+
+
+
 ## GitHub
 
 ### Connecting to GitHub via VS Code
