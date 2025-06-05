@@ -6,7 +6,7 @@
 
 This portfolio showcases my web development skills, featuring both completed and ongoing projects. It's designed to appeal to recruiters, collaborators, and fellow developers by blending creativity with technical ability.
 
-<a href="https://tambrulee.github.io/Portfolio_Project/index.html">Click here to view my deployed website in GitHub</a>
+<a href="https://tambrulee.github.io/portfolio_project/">Click here to view my deployed website in GitHub</a>
 
 The site features an anime-inspired aesthetic, including a Studio Ghibli-style illustration generated via DALL·E through ChatGPT, based on a real-life photo of me.
 
@@ -295,7 +295,7 @@ First deployment was unsuccessful. The index.html (Home) page was loading but th
 #### Test 2
 As per above, the second attempt was successful and the website is now successfully deployed. Check it out here:
 
-<a href="https://tambrulee.github.io/Portfolio_Project/index.html">Click here to view my deployed website in GitHub</a>
+<a href="https://tambrulee.github.io/portfolio_project/">Click here to view my deployed website in GitHub</a>
 
 <img src="assets/images/readme/code-testing/github-deployed.png">
 
