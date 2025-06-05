@@ -214,35 +214,34 @@ No errors or issues found with CSS
 
 I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
 
-### Home Page - Lighthouse Test - Mobile
-<img src="assets/images/README/Code testing/Lighthouse_home_mobile.png">
+### Home Page - Lighthouse Test - Mobile<img src="assets/images/readme/code-testing/lighthouse_home_mobile.png">
 
 ### Home Page - Lighthouse Test - Desktop
-<img src="assets/images/README/Code testing/Lighthouse_home_desktop.png">
+<img src="assets/images/readme/code-testing/lighthouse_home_desktop.png">
 
 ### Projects - Lighthouse Test - Mobile
-<img src="assets/images/README/Code testing/Lighthouse_projects_mobile.png">
+<img src="assets/images/readme/code-testing/lighthouse_projects_mobile.png.png">
 
 ### Projects - Lighthouse Test - Desktop
-<img src="assets/images/README/Code testing/Lighthouse_projects_desktop.png">
+<img src="assets/images/readme/code-testing/lighthouse_projects_desktop.png">
 
 ### Contact - Lighthouse Test - Mobile
-<img src="assets/images/README/Code testing/Lighthouse_contact_mobile.png">
+<img src="assets/images/readme/code-testing/lighthouse_contact_mobile.png">
 
 ### Contact - Lighthouse Test - Desktop
-<img src="assets/images/README/Code testing/Lighthouse_contact_desktop.png">
+<img src="assets/images/readme/code-testing/lighthouse_contact_desktop.png">
 
 ## Mobile Responsiveness
 I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a> tool to test the mobile responsiveness of each of my web pages.
 
 #### Home Page - Mobile Responsiveness
-<img src="assets/images/README/Code testing/Mobile_responsiveness_home.png">
+<img src="assets/images/readme/code-testing/mobile_responsiveness_home.png">
 
 #### Projects Page - Mobile Responsiveness
-<img src="assets/images/README/Code testing/Mobile_responsiveness_projects.png">
+<img src="assets/images/readme/code-testing/mobile_responsiveness_projects.png">
 
 #### Contact Page - Mobile Responsiveness
-<img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png">
+<img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png">
 
 
 
@@ -262,43 +261,43 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 * First I created a folder for my project on my local hard drive
 <br>
-<img src="assets/images/README/GitHub Deployment/local_files.png">
+<img src="assets/images/readme/github-deployment/local_files.png">
 <br><br>
 
 * Then I installed GitHub Codespaces into VS Code
 <br>
-<img src="assets/images/README/GitHub Deployment/codespaces_install.png">
+<img src="assets/images/readme/github-deployment/codespaces_install.png">
 <br><br>
 
 * From there I was able to write my first few files. Write my commits and push my work via the interface in source control which provides easy to use commit, push and pull buttons.
 <br>
-<img src="assets/images/README/GitHub Deployment/source_control.png">
+<img src="assets/images/readme/github-deployment/source_control.png">
 <br><br>
 
-* I could then check GitHub which was updating with each push as expected. 
+* I could then check GitHub was updating with each push as expected. 
 <br>
-<img src="assets/images/README/GitHub Deployment/github_files.png">
+<img src="assets/images/readme/github-deployment/github_files.png">
 <br><br>
 
-* To deploy the project I used Pages section in my GitHub project which I used throughout the creative process to ensure the project was being deployed correctly. I did have an
+* To deploy the project I made my github depository public in the 'Pages' section in my GitHub project. I used this throughout the creative process to ensure the project was being deployed correctly. 
 <br>
-<img src="assets/images/README/GitHub Deployment/github_pages.png">
+<img src="assets/images/readme/github-deployment/github_pages.png">
 <br><br>
 
 *  Here is my project deployed in GitHub. I did have some issues with setup at first, then after researching the issue I realised that my project was set to private to I  set it to public. Further issue images not showing and links going to a 404 page, this was resolved by removing the first '/' out of the links. 
 <br>
-<img src="assets/images/README/GitHub Deployment/github_deploy.png">
+<img src="assets/images/readme/github-deployment/github_deploy.png">
 
 #### Test 1
 First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again which worked.
-<img src="assets/images/README/Code testing/Deployment to GitHub.png">
+<img src="assets/images/readme/code-testing/deployment-to-github.png">
 
 #### Test 2
-As per above, the second attempt was successful and the website is no successfully deployed. Check it out here:
+As per above, the second attempt was successful and the website is now successfully deployed. Check it out here:
 
 <a href="https://tambrulee.github.io/Portfolio_Project/index.html">Click here to view my deployed website in GitHub</a>
 
-<img src="assets/images/README/Code testing/GitHub - Deployed.png">
+<img src="assets/images/readme/code-testing/github-deployed.png">
 
 ## Known Bugs
 
