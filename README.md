@@ -171,11 +171,17 @@ A quick, simple way for people to reach me or connect further.
 - A friendly message welcoming visitors to get in touch.
 - My email address, LinkedIn, GitHub, and other social media links.
 
-## HTML Testing
+## Testing
+
+### Basic Testing
+
+    - Scrollspy, accordian and tinks were all tested as per user story acceptance criteria
+
+### HTML Testing
 
 * HTML was tested using: <a href="https://validator.w3.org/">Nu Html Checker</a>
 
-### Fixing Errors
+#### Fixing Errors
 Here's a list of errors flagged up by the W3 tester and how I fixed them:
 
 * Removed '/' from all internal links to pages and files
@@ -193,16 +199,16 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 <img src="assets/images/readme/code-testing/page-testing-3.png">
 
 
-### Home Page - Issues Fixed
+#### Home Page - Issues Fixed
 <img src="assets/images/readme/code-testing/html-check-home.png">
 
-### Projects Page - Issues Fixed
+#### Projects Page - Issues Fixed
 <img src="assets/images/readme/code-testing/html-check-projects.png">
 
-### Contact Page - Issues Fixed
+#### Contact Page - Issues Fixed
 <img src="assets/images/readme/code-testing/html-check-contact.png">
 
-## CSS Testing
+### CSS Testing
 
 HTML was tested using: <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS Validation Service</a>
 
@@ -210,28 +216,28 @@ No errors or issues found with CSS
 
 <img src="assets/images/readme/code-testing/css-checking.png">
 
-## Lighthouse Testing
+### Lighthouse Testing
 
 I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
 
-### Home Page - Lighthouse Test - Mobile<img src="assets/images/readme/code-testing/lighthouse_home_mobile.png">
+#### Home Page - Lighthouse Test - Mobile<img src="assets/images/readme/code-testing/lighthouse_home_mobile.png">
 
-### Home Page - Lighthouse Test - Desktop
+#### Home Page - Lighthouse Test - Desktop
 <img src="assets/images/readme/code-testing/lighthouse_home_desktop.png">
 
-### Projects - Lighthouse Test - Mobile
+#### Projects - Lighthouse Test - Mobile
 <img src="assets/images/readme/code-testing/lighthouse_projects_mobile.png.png">
 
-### Projects - Lighthouse Test - Desktop
+#### Projects - Lighthouse Test - Desktop
 <img src="assets/images/readme/code-testing/lighthouse_projects_desktop.png">
 
-### Contact - Lighthouse Test - Mobile
+#### Contact - Lighthouse Test - Mobile
 <img src="assets/images/readme/code-testing/lighthouse_contact_mobile.png">
 
-### Contact - Lighthouse Test - Desktop
+#### Contact - Lighthouse Test - Desktop
 <img src="assets/images/readme/code-testing/lighthouse_contact_desktop.png">
 
-## Mobile Responsiveness
+### Mobile Responsiveness
 I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a> tool to test the mobile responsiveness of each of my web pages.
 
 #### Home Page - Mobile Responsiveness
@@ -243,18 +249,15 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 #### Contact Page - Mobile Responsiveness
 <img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png">
 
-
-
+## Browser Testing
 
 
 ## GitHub
 
 ### Connecting to GitHub via VS Code
 
-- I downloaded GitHub Codespaces
-
+- I opted to download GitHub Codespaces for ease instead of pushing and pulling manually via the terminal
 - Once connected I could connect to my repositories in GitHub
-
 - I used the interactive panel to do my commits and to push my commits to Git Hub
 
 ### Deployment
@@ -279,7 +282,14 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 <img src="assets/images/readme/github-deployment/github_files.png">
 <br><br>
 
-* To deploy the project I made my github depository public in the 'Pages' section in my GitHub project. I used this throughout the creative process to ensure the project was being deployed correctly. 
+* To deploy the project I made my Github depository public under 'Settings' in my GitHub project. Right at the bottom of the page is the 'Danger Zone' I selected 'Change visibility' and set to 'Change to public'.
+
+* Then I selected 'Pages' and 'Deploy from a Branch' under Source.
+
+* Under 'Branch' I selected 'main', '/root' and then clicked 'Save'.
+
+* From this point on the website has been deployed and will automatically update as I push my commits.
+
 <br>
 <img src="assets/images/readme/github-deployment/github_pages.png">
 <br><br>
