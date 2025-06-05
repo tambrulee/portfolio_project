@@ -1,6 +1,6 @@
 # Portfolio Project
 
-<img src="assets/images/README.png" alt="Welcome to my portfolio project">
+<img src="assets/images/readme.png" alt="Welcome to my portfolio project">
 
 ## About Project
 
@@ -14,19 +14,19 @@ Beyond web development, I’ve included design work to set myself apart—blendi
 
 The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue (from Google Fonts) and Avenir.
 
-<img src="assets/images/20241201_151312.jpg" alt="A real life photo of me">
+<img src="assets/images/selfie.jpg" alt="A real life photo of me">
 
 **A picture of me that I converted into an AI image**
 
-<img src="assets/images/About.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/about.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for home page**
 
-<img src="assets/images/Projects.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/projects.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for project page**
 
-<img src="assets/images/Contact.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/contact.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for contact page**
 
@@ -51,14 +51,14 @@ For this project I imported SCSS. Although it isn't my first attempt, it is my f
 It took several attempts to install SCSS successfully. I used npm/ sudo to load SCSS via the terminal on macOS. 
 
 * First issue was that I was trying to load SCSS into the wrong directory - I changed directory and this seemed to work
-<img src="assets/images/README/Code testing/Installing SCSS.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
-<img src="assets/images/README/Code testing/Installing SCSS - 2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
-<img src="assets/images/README/Code testing/Installing SCSS-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/readme/code-testing/installing-scss.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/readme/code-testing/html-checking-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/readme/code-testing/installing-scss-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 
 * Second issue was use of incorrect syntax when trying to watch SCSS - resolved with the assistance of ChatGPT.
-<img src="assets/images/README/Code testing/Installing SCSS - 6.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
-<img src="assets/images/README/Code testing/Installing SCSS - 7.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
-<img src="assets/images/README/Code testing/ChatGPT-sudo.png" alt="Screenshot of ChatGPT solution">
+<img src="assets/images/readme/code-testing/installing-scss-6.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
+<img src="assets/images/readme/code-testing/installing-scss-7.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
+<img src="assets/images/readme/code-testing/chatgpt-sudo.png" alt="Screenshot of ChatGPT solution">
 
 ## User Stories
 
@@ -128,10 +128,10 @@ So that I can appreciate their skills and experience.
 
 I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced whitespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
 
-<img src="assets/images/README/Wireframes/Mobile_view.png" alt="Wireframe mockups">
-<img src="assets/images/README/Wireframes/Front_page.png" alt="Wireframe mockups">
-<img src="assets/images/README/Wireframes/Projects_page.png" alt="Wireframe mockups">
-<img src="assets/images/README/Wireframes/Contact_page.png" alt="Wireframe mockups">
+<img src="assets/images/readme/wireframes/mobile_view.png" alt="Wireframe mockups">
+<img src="assets/images/readme/wireframes/front_page.png" alt="Wireframe mockups">
+<img src="assets/images/readme/wireframes/projects_page.png" alt="Wireframe mockups">
+<img src="assets/images/readme/wireframes/contact_page.png" alt="Wireframe mockups">
 
 ## Pages
 
@@ -141,7 +141,9 @@ This is the landing page when the user first visits the website. It's split into
 
 I decided to use the Scrollspy feature after applying it to the Project page and liking the way it looked. In terms of UX, I thought it went well with the overall theme and made the information look nicely compact on the page.
 
-<img src="assets/images/README/Code testing/Mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
+I designed the homepage so that the spyscroll buttons work only on tablet and mobile, but on desktop the buttons disappear as I felt they were redundant as there was not enough content. So I set display to hidden using a media query with a view to unhide as my portfolio grows. 
+
+<img src="assets/images/readme/code-testing/mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
 
 **Features:**
 - Hero image
@@ -153,7 +155,7 @@ I decided to use the Scrollspy feature after applying it to the Project page and
 
 This second page of the website showcases some of my ongoing projects. It uses a scrollspy with a navigation bar, so viewers can easily find each project and learn more about it.
 
-<img src="assets/images/README/Code testing/Mobile_responsiveness_projects.png" alt="Responsive mobile optimised projects page">
+<img src="assets/images/readme/code-testing/mobile_responsiveness_projects.png.png" alt="Responsive mobile optimised projects page">
 
 **Features**
 - A Bootstrap scrollspy window for easy navigation.
@@ -163,7 +165,7 @@ This second page of the website showcases some of my ongoing projects. It uses a
 
 A quick, simple way for people to reach me or connect further.
 
-<img src="assets/images/README/Code testing/Mobile_responsiveness_contacts.png" alt="Responsive mobile optimised contact page">
+<img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png.png" alt="Responsive mobile optimised contact page">
 
 **Features:**
 - A friendly message welcoming visitors to get in touch.
@@ -180,15 +182,15 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 * Closed main tag
 * Closed all div elements
 * Added spaces between attributes 
-<img src="assets/images/README/Code testing/Page-testing-1.png">
+<img src="assets/images/readme/code-testing/page-testing-1.png">
 
 * Removed all duplicate IDs and replaced them with classes where appropriate
 
-<img src="assets/images/README/Code testing/Page-testing-2.png">
+<img src="assets/images/readme/code-testing/page-testing-2.png">
 
 * Recoded all sections where there was a button tag nested within an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
 
-<img src="assets/images/README/Code testing/Page-testing-3.png">
+<img src="assets/images/readme/code-testing/page-testing-3.png">
 
 
 ### Home Page - Issues Fixed
