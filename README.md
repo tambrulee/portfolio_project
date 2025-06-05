@@ -208,7 +208,7 @@ HTML was tested using: <a href="https://jigsaw.w3.org/css-validator/#validate_by
 
 No errors or issues found with CSS
 
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.19.04.png">
+<img src="assets/images/readme/code-testing/css-checking.png">
 
 ## Lighthouse Testing
 
