@@ -194,13 +194,13 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 
 
 ### Home Page - Issues Fixed
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 22.53.16.png">
+<img src="assets/images/readme/code-testing/html-check-home.png">
 
 ### Projects Page - Issues Fixed
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.12.47.png">
+<img src="assets/images/readme/code-testing/html-check-projects.png">
 
 ### Contact Page - Issues Fixed
-<img src="assets/images/README/Code testing/Screenshot 2025-04-22 at 23.18.09.png">
+<img src="assets/images/readme/code-testing/html-check-contact.png">
 
 ## CSS Testing
 
