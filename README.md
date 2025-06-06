@@ -52,7 +52,7 @@ It took several attempts to install SCSS successfully. I used npm/ sudo to load 
 
 * First issue was that I was trying to load SCSS into the wrong directory - I changed directory and this seemed to work
 <img src="assets/images/readme/code-testing/installing-scss.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
-<img src="assets/images/readme/code-testing/html-checking-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/readme/code-testing/installing-scss-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 <img src="assets/images/readme/code-testing/installing-scss-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 
 * Second issue was use of incorrect syntax when trying to watch SCSS - resolved with the assistance of ChatGPT.
