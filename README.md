@@ -292,7 +292,14 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 #### Contact Page - Mobile Responsiveness
 <img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png">
 
-## Browser Testing
+## Device & Browser Testing
+
+### Device
+- Website was tested on iPhone 7, iPhone 12 Max, Galaxy Z fold 5, Samsung Galaxy A1, iPad Mini/Air/Pro and Desktop
+- There is some negative space on bottom of page in iPad Pro
+
+### Browser
+- Tested in Google Chrome, Safari, Microsoft Edge and Mozilla Firefox
 
 
 ## GitHub
@@ -305,7 +312,7 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 ### Deployment
 
-* First I created a folder for my project on my local hard drive
+* First I created a folder for my project on my local hard drive and opened it within VS code
 <br>
 <img src="assets/images/readme/github-deployment/local_files.png">
 <br><br>
