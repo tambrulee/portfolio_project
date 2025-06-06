@@ -179,7 +179,7 @@ This is the landing page when the user first visits the website. It's split into
 
 I decided to use the Scrollspy feature after applying it to the Project page and liking the way it looked. In terms of UX, I thought it went well with the overall theme and made the information look nicely compact on the page.
 
-I designed the homepage so that the spyscroll buttons work only on tablet and mobile, but on desktop the buttons disappear as I felt they were redundant as there was not enough content. So I set display to hidden using a media query with a view to unhide as my portfolio grows. 
+I designed the homepage so that the spyscroll buttons are hidden as I felt they were redundant as there was not enough content especially within the desktop view. 
 
 <img src="assets/images/readme/code-testing/mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
 
@@ -398,6 +398,10 @@ As per above, the second attempt was successful and the website is now successfu
 <img src="assets/images/readme/code-testing/github-deployed.png">
 
 ## Known Bugs
+
+* Buttons for scrollspy on project page are slightly misaligned in mobile and tablet view
+
+* Buttons have been hidden on homepage scrollspy
 
 ### Main navigation bar 
 The navigation bar does not stretch all the way across the top of the screen at a 990px (min-width) and upwards resolution. This is an unintended glitch, but overall, it doesn't detract from the usability or the overall look of the website.
