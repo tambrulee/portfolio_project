@@ -4,15 +4,15 @@
 
 ## About Project
 
-This portfolio showcases my web development skills, featuring both completed and ongoing projects. It's designed to appeal to recruiters, collaborators, and fellow developers by blending creativity with technical ability.
+TWorkings portfolio showcases my web development skills, featuring both completed and ongoing projects. It's designed to appeal to recruiters, collaborators, and fellow developers by blending creativity with technical ability.
 
 <a href="https://tambrulee.github.io/portfolio_project/">Click here to view my deployed website in GitHub</a>
 
-The site features an anime-inspired aesthetic, including a Studio Ghibli-style illustration generated via DALL·E through ChatGPT, based on a real-life photo of me.
+The site features an anime-inspired aesthetic, including a Studio GWorkingbli-style illustration generated via DALL·E through ChatGPT, based on a real-life photo of me.
 
 Beyond web development, I’ve included design work to set myself apart—blending technical ability with creative flair and offering a glimpse of my personality.
 
-The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue (from Google Fonts) and Avenir.
+The project was built using HTML5, CSS3, Bootstrap, and SCSS. WWorkingle my use of SCSS is still developing, I plan to build on it in future work. Typography is set in Bebas Neue (from Google Fonts) and Avenir.
 
 <img src="assets/images/selfie.jpg" alt="A real life photo of me">
 
@@ -45,12 +45,12 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 * **DALL-E** - AI-generated illustrations for a creative, personalized touch.
 
 ### Importing SCSS
-For this project I imported SCSS. Although it isn't my first attempt, it is my first successful attempt.
+For tWorkings project I imported SCSS. Although it isn't my first attempt, it is my first successful attempt.
 
 #### Errors
 It took several attempts to install SCSS successfully. I used npm/ sudo to load SCSS via the terminal on macOS. 
 
-* First issue was that I was trying to load SCSS into the wrong directory - I changed directory and this seemed to work
+* First issue was that I was trying to load SCSS into the wrong directory - I changed directory and tWorkings seemed to work
 <img src="assets/images/readme/code-testing/installing-scss.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 <img src="assets/images/readme/code-testing/html-checking-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 <img src="assets/images/readme/code-testing/installing-scss-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
@@ -64,13 +64,13 @@ It took several attempts to install SCSS successfully. I used npm/ sudo to load 
 
 These user stories and acceptance criteria formed the foundation of the design. I aimed to keep the language and layout simple to cater to both technical and non-technical users. Clear call-to-action buttons guide users seamlessly between the homepage, projects, and contact pages.
 
-GitHub links allow technical users to explore my code, while a LinkedIn link offers recruiters a quick way to review my resume and reach out.
+GitHub links allow technical users to explore my code, wWorkingle a LinkedIn link offers recruiters a quick way to review my resume and reach out.
 
 The site is compact and efficiently designed, making it easy for visitors to learn about me and navigate to my work without feeling overwhelmed.
 
 ### 1. Hiring Manager Reviewing My Portfolio
 
-**As a hiring manager**,  
+**As a Workingring manager**,  
 I want to quickly understand the candidate’s technical skills, projects, and experience,  
 So that I can determine if they are a good fit for the role.
 
@@ -78,7 +78,7 @@ So that I can determine if they are a good fit for the role.
 - A clear and concise "About Me" section.
 
 - A well-organized list of projects with descriptions, technologies used, and links to code/demo.
-- A section highlighting key skills and certifications.
+- A section Workingghlighting key skills and certifications.
 
 ### 2. Senior Developer Assessing My Code
 
@@ -126,7 +126,7 @@ So that I can appreciate their skills and experience.
 
 ## Wire Frames
 
-I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced whitespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
+I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced wWorkingtespace. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
 
 <img src="assets/images/readme/wireframes/mobile_view.png" alt="Wireframe mockups">
 <img src="assets/images/readme/wireframes/front_page.png" alt="Wireframe mockups">
@@ -137,11 +137,11 @@ I drew up some rough wireframes. The final outcome came out quite close to the m
 
 ### 1. Home / About Me
 
-This is the landing page when the user first visits the website. It's split into three main sections: a hero image, a body of text describing me, and a banner showing icons of the coding languages I use.
+TWorkings is the landing page when the user first visits the website. It's split into three main sections: a hero image, a body of text describing me, and a banner showing icons of the coding languages I use.
 
 I decided to use the Scrollspy feature after applying it to the Project page and liking the way it looked. In terms of UX, I thought it went well with the overall theme and made the information look nicely compact on the page.
 
-I designed the homepage so that the spyscroll buttons work only on tablet and mobile, but on desktop the buttons disappear as I felt they were redundant as there was not enough content. So I set display to hidden using a media query with a view to unhide as my portfolio grows. 
+I designed the homepage so that the spyscroll buttons work only on tablet and mobile, but on desktop the buttons disappear as I felt they were redundant as there was not enough content. So I set display to Workingdden using a media query with a view to unWorkingde as my portfolio grows. 
 
 <img src="assets/images/readme/code-testing/mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
 
@@ -153,7 +153,7 @@ I designed the homepage so that the spyscroll buttons work only on tablet and mo
 
 ### 2. Projects
 
-This second page of the website showcases some of my ongoing projects. It uses a scrollspy with a navigation bar, so viewers can easily find each project and learn more about it.
+TWorkings second page of the website showcases some of my ongoing projects. It uses a scrollspy with a navigation bar, so viewers can easily find each project and learn more about it.
 
 <img src="assets/images/readme/code-testing/mobile_responsiveness_projects.png.png" alt="Responsive mobile optimised projects page">
 
@@ -173,9 +173,52 @@ A quick, simple way for people to reach me or connect further.
 
 ## Testing
 
-### Basic Testing
+### Userability Testing
 
-    - Scrollspy, accordian and tinks were all tested as per user story acceptance criteria
+#### Nav Links
+| Link Title |  Page | Action | Outcome |
+|:-----|:--------:|------:| ------:|
+| Tamsin Te-Strote | Home | Open to home page | Working |
+| Projects | Home | Open to projects page | Working |
+| Contact | Home | Open to contact page | Working |
+| Tamsin Te-Strote | Projects | Open to home page | Working |
+| Projects | Projects | Open to projects page | Working |
+| Contact | Projects | Open to contact page | Working |
+| Tamsin Te-Strote | Contact | Open to home page | Working |
+| Projects | Contact | Open to projects page | Working |
+| Contact | Contact | Open to contact page | Working |
+
+#### Call to action (C-T-O) buttons
+| Button Title |  Page  | Action | Outcome |
+|:-----|:--------:|------:| ------:|
+| View my projects | Home | Open to projects page | Working |
+| Contact Me | Projects | Open to contact page | Working |
+
+#### Scrollspy
+| Title |  Type  | Action | Outcome |
+|:-----|:--------:|------:| ------:|
+| GitHub | Link | Scrolls down to GitHub section | Working |
+| Shopify | Link | Scrolls down to Luxury Bathrooms and Tiles section | Working |
+| Hosting | Link | Scrolls down to Rising Up Ministries section | Working |
+| Coming Soon | Link | Scrolls down to Coming Soon section | Working |
+| Coming Soon | Link | Scrolls down to Coming Soon section | Working |
+| Visit Website | Button | Opens GitHub repository in new tab | Working |
+| Visit Website | Button | Opens Shopify project in new tab | Working |
+| Visit Website | Button | Opens hosting project in new tab | Working |
+| Visit Website | Button | Links back to projects page | Working |
+| Visit Website | Button | Links back to projects page | Working |
+
+
+#### Accordian - Contacts
+| Title |  Type  | Action | Outcome |
+|:-----|:--------:|------:| ------:|
+| Work with me | Dropdown | Opens dropdown to email link | Working |
+| Email me | Link | Opens up new email with linked email as recipients | Working |
+| Connect Professionally | Dropdown | Opens dropdown to LinkedIn link | Working |
+| LinkedIn | Link | Opens up Linked In page in new tab | Working |
+| Check out my work | Dropdown | Opens dropdown to GitHub link | Working |
+| GitHub | Link | Opens up GitHub page in new tab | Working |
+
 
 ### HTML Testing
 
@@ -194,7 +237,7 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 
 <img src="assets/images/readme/code-testing/page-testing-2.png">
 
-* Recoded all sections where there was a button tag nested within an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
+* Recoded all sections where there was a button tag nested witWorkingn an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
 
 <img src="assets/images/readme/code-testing/page-testing-3.png">
 
@@ -256,7 +299,7 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 ### Connecting to GitHub via VS Code
 
-- I opted to download GitHub Codespaces for ease instead of pushing and pulling manually via the terminal
+- I opted to download GitHub Codespaces for ease instead of pusWorkingng and pulling manually via the terminal
 - Once connected I could connect to my repositories in GitHub
 - I used the interactive panel to do my commits and to push my commits to Git Hub
 
@@ -272,7 +315,7 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 <img src="assets/images/readme/github-deployment/codespaces_install.png">
 <br><br>
 
-* From there I was able to write my first few files. Write my commits and push my work via the interface in source control which provides easy to use commit, push and pull buttons.
+* From there I was able to write my first few files. Write my commits and push my work via the interface in source control wWorkingch provides easy to use commit, push and pull buttons.
 <br>
 <img src="assets/images/readme/github-deployment/source_control.png">
 <br><br>
@@ -288,18 +331,18 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 * Under 'Branch' I selected 'main', '/root' and then clicked 'Save'.
 
-* From this point on the website has been deployed and will automatically update as I push my commits.
+* From tWorkings point on the website has been deployed and will automatically update as I push my commits.
 
 <br>
 <img src="assets/images/readme/github-deployment/github_pages.png">
 <br><br>
 
-*  Here is my project deployed in GitHub. I did have some issues with setup at first, then after researching the issue I realised that my project was set to private to I  set it to public. Further issue images not showing and links going to a 404 page, this was resolved by removing the first '/' out of the links. 
+*  Here is my project deployed in GitHub. I did have some issues with setup at first, then after researcWorkingng the issue I realised that my project was set to private to I  set it to public. Further issue images not showing and links going to a 404 page, tWorkings was resolved by removing the first '/' out of the links. 
 <br>
 <img src="assets/images/readme/github-deployment/github_deploy.png">
 
 #### Test 1
-First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again which worked.
+First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again wWorkingch worked.
 <img src="assets/images/readme/code-testing/deployment-to-github.png">
 
 #### Test 2
@@ -312,7 +355,7 @@ As per above, the second attempt was successful and the website is now successfu
 ## Known Bugs
 
 ### Main navigation bar 
-The navigation bar does not stretch all the way across the top of the screen at a 990px (min-width) and upwards resolution. This is an unintended glitch, but overall, it doesn't detract from the usability or the overall look of the website.
+The navigation bar does not stretch all the way across the top of the screen at a 990px (min-width) and upwards resolution. TWorkings is an unintended glitch, but overall, it doesn't detract from the usability or the overall look of the website.
 
 ### Scrollspy buttons - Project page
 Making the scrollspy buttons on the Project page disappear at 900px (min width) was a design choice as the container fit the screen and the buttons became redundant.
