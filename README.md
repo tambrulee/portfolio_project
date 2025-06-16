@@ -18,15 +18,15 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 
 **A picture of me that I converted into an AI image**
 
-<img src="../assets/images/about.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/about_img.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for home page**
 
-<img src="../assets/images/projects.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/projects_img.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for project page**
 
-<img src="../assets/images/contact.png" alt="Home page photo created in ChatGPT">
+<img src="assets/images/contact_img.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for contact page**
 
@@ -301,7 +301,8 @@ No errors or issues found with CSS
 
 I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
 
-#### Home Page - Lighthouse Test - Mobile<img src="assets/images/read-me-imgs/code-testing/lighthouse_home_mobile.png">
+#### Home Page - Lighthouse Test - Mobile
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_home_mobile.png">
 
 #### Home Page - Lighthouse Test - Desktop
 <img src="assets/images/read-me-imgs/code-testing/lighthouse_home_desktop.png">
