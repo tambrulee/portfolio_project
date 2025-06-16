@@ -308,7 +308,7 @@ I tested the website in lighthouse. Overall I was happy with the results, especi
 <img src="assets/images/read-me-imgs/code-testing/lighthouse_home_desktop.png">
 
 #### Projects - Lighthouse Test - Mobile
-<img src="assets/images/read-me-imgs/code-testing/lighthouse_projects_mobile.png.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_projects_mobile.png">
 
 #### Projects - Lighthouse Test - Desktop
 <img src="assets/images/read-me-imgs/code-testing/lighthouse_projects_desktop.png">
