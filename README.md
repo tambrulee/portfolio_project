@@ -1,6 +1,6 @@
 # Portfolio Project
 
-<img src="assets/images/readme.png" alt="Welcome to my portfolio project">
+<img src="assets/images/readme-img.png" alt="Welcome to my portfolio project">
 
 ## About Project
 
