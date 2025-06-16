@@ -18,15 +18,15 @@ The project was built using HTML5, CSS3, Bootstrap, and SCSS. While my use of SC
 
 **A picture of me that I converted into an AI image**
 
-<img src="assets/images/about.png" alt="Home page photo created in ChatGPT">
+<img src="../assets/images/about.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for home page**
 
-<img src="assets/images/projects.png" alt="Home page photo created in ChatGPT">
+<img src="../assets/images/projects.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for project page**
 
-<img src="assets/images/contact.png" alt="Home page photo created in ChatGPT">
+<img src="../assets/images/contact.png" alt="Home page photo created in ChatGPT">
 
 **Hero image for contact page**
 
