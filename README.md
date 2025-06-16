@@ -269,11 +269,11 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 * Closed main tag
 * Closed all div elements
 * Added spaces between attributes 
-<img src="assets/images/readme/code-testing/page-testing-1.png">
+<img src="../assets/images/readme/code-testing/page-testing-1.png">
 
 * Removed all duplicate IDs and replaced them with classes where appropriate
 
-<img src="assets/images/readme/code-testing/page-testing-2.png">
+<img src="../assets/images/readme/code-testing/page-testing-2.png">
 
 * Recoded all sections where there was a button tag nested within an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
 
