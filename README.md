@@ -1,6 +1,6 @@
 # Portfolio Project
 
-<img src="assets/images/readme.png" alt="Welcome to my portfolio project">
+<img src="assets/images/read-me-imgs.png" alt="Welcome to my portfolio project">
 
 ## About Project
 
@@ -51,14 +51,14 @@ For this project I imported SCSS. Although it isn't my first attempt, it is my f
 It took several attempts to install SCSS successfully. I used npm/ sudo to load SCSS via the terminal on macOS. 
 
 * First issue was that I was trying to load SCSS into the wrong directory - I changed directory and this seemed to work
-<img src="assets/images/readme/code-testing/installing-scss.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
-<img src="assets/images/readme/code-testing/installing-scss-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
-<img src="assets/images/readme/code-testing/installing-scss-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/read-me-imgs/code-testing/installing-scss.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/read-me-imgs/code-testing/installing-scss-2.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
+<img src="assets/images/read-me-imgs/code-testing/installing-scss-3.png" alt="Screenshot of npm/sudo scss loading error message in macOS terminal">
 
 * Second issue was use of incorrect syntax when trying to watch SCSS - resolved with the assistance of ChatGPT.
-<img src="assets/images/readme/code-testing/installing-scss-6.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
-<img src="assets/images/readme/code-testing/installing-scss-7.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
-<img src="assets/images/readme/code-testing/chatgpt-sudo.png" alt="Screenshot of ChatGPT solution">
+<img src="assets/images/read-me-imgs/code-testing/installing-scss-6.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
+<img src="assets/images/read-me-imgs/code-testing/installing-scss-7.png" alt="Screenshot of npm/sudo scss loading message in macOS terminal">
+<img src="assets/images/read-me-imgs/code-testing/chatgpt-sudo.png" alt="Screenshot of ChatGPT solution">
 
 ## User Stories
 
@@ -166,10 +166,10 @@ So that I can appreciate their skills and experience.
 
 I drew up some rough wireframes. The final outcome came out quite close to the mockups, except it has a more compact layout with reduced white space. I also eventually decided to remove the badges as I struggled to place them in a way that would be mobile-optimized.
 
-<img src="assets/images/readme/wireframes/mobile_view.png" alt="Wireframe mockups">
-<img src="assets/images/readme/wireframes/front_page.png" alt="Wireframe mockups">
-<img src="assets/images/readme/wireframes/projects_page.png" alt="Wireframe mockups">
-<img src="assets/images/readme/wireframes/contact_page.png" alt="Wireframe mockups">
+<img src="assets/images/read-me-imgs/wireframes/mobile_view.png" alt="Wireframe mockups">
+<img src="assets/images/read-me-imgs/wireframes/front_page.png" alt="Wireframe mockups">
+<img src="assets/images/read-me-imgs/wireframes/projects_page.png" alt="Wireframe mockups">
+<img src="assets/images/read-me-imgs/wireframes/contact_page.png" alt="Wireframe mockups">
 
 ## Pages
 
@@ -181,7 +181,7 @@ I decided to use the Scrollspy feature after applying it to the Project page and
 
 I designed the homepage so that the spyscroll buttons are hidden as I felt they were redundant as there was not enough content especially within the desktop view. 
 
-<img src="assets/images/readme/code-testing/mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_home.png" alt="Responsive mobile optimised homepage">
 
 **Features:**
 - Hero image
@@ -193,7 +193,7 @@ I designed the homepage so that the spyscroll buttons are hidden as I felt they 
 
 This second page of the website showcases some of my ongoing projects. It uses a scrollspy with a navigation bar, so viewers can easily find each project and learn more about it.
 
-<img src="assets/images/readme/code-testing/mobile_responsiveness_projects.png" alt="Responsive mobile optimised projects page">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_projects.png" alt="Responsive mobile optimised projects page">
 
 **Features**
 - A Bootstrap scrollspy window for easy navigation.
@@ -203,7 +203,7 @@ This second page of the website showcases some of my ongoing projects. It uses a
 
 A quick, simple way for people to reach me or connect further.
 
-<img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png" alt="Responsive mobile optimised contact page">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_contacts.png" alt="Responsive mobile optimised contact page">
 
 **Features:**
 - A friendly message welcoming visitors to get in touch.
@@ -269,25 +269,25 @@ Here's a list of errors flagged up by the W3 tester and how I fixed them:
 * Closed main tag
 * Closed all div elements
 * Added spaces between attributes 
-<img src="../assets/images/readme/code-testing/page-testing-1.png">
+<img src="assets/images/read-me-imgs/code-testing/page-testing-1.png">
 
 * Removed all duplicate IDs and replaced them with classes where appropriate
 
-<img src="../assets/images/readme/code-testing/page-testing-2.png">
+<img src="assets/images/read-me-imgs/code-testing/page-testing-2.png">
 
 * Recoded all sections where there was a button tag nested within an a tag, so that it is an a tag with a button class so that CSS and styling are picked up.
 
-<img src="assets/images/readme/code-testing/page-testing-3.png">
+<img src="assets/images/read-me-imgs/code-testing/page-testing-3.png">
 
 
 #### Home Page - Issues Fixed
-<img src="assets/images/readme/code-testing/html-check-home.png">
+<img src="assets/images/read-me-imgs/code-testing/html-check-home.png">
 
 #### Projects Page - Issues Fixed
-<img src="assets/images/readme/code-testing/html-check-projects.png">
+<img src="assets/images/read-me-imgs/code-testing/html-check-projects.png">
 
 #### Contact Page - Issues Fixed
-<img src="assets/images/readme/code-testing/html-check-contact.png">
+<img src="assets/images/read-me-imgs/code-testing/html-check-contact.png">
 
 ### CSS Testing
 
@@ -295,40 +295,40 @@ HTML was tested using: <a href="https://jigsaw.w3.org/css-validator/#validate_by
 
 No errors or issues found with CSS
 
-<img src="assets/images/readme/code-testing/css-checking.png">
+<img src="assets/images/read-me-imgs/code-testing/css-checking.png">
 
 ### Lighthouse Testing
 
 I tested the website in lighthouse. Overall I was happy with the results, especially for accessibility. If I had more time I would look at the website performance, otherwise I'm happy that loading times and website speed is gernerally okay. 
 
-#### Home Page - Lighthouse Test - Mobile<img src="assets/images/readme/code-testing/lighthouse_home_mobile.png">
+#### Home Page - Lighthouse Test - Mobile<img src="assets/images/read-me-imgs/code-testing/lighthouse_home_mobile.png">
 
 #### Home Page - Lighthouse Test - Desktop
-<img src="assets/images/readme/code-testing/lighthouse_home_desktop.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_home_desktop.png">
 
 #### Projects - Lighthouse Test - Mobile
-<img src="assets/images/readme/code-testing/lighthouse_projects_mobile.png.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_projects_mobile.png.png">
 
 #### Projects - Lighthouse Test - Desktop
-<img src="assets/images/readme/code-testing/lighthouse_projects_desktop.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_projects_desktop.png">
 
 #### Contact - Lighthouse Test - Mobile
-<img src="assets/images/readme/code-testing/lighthouse_contact_mobile.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_contact_mobile.png">
 
 #### Contact - Lighthouse Test - Desktop
-<img src="assets/images/readme/code-testing/lighthouse_contact_desktop.png">
+<img src="assets/images/read-me-imgs/code-testing/lighthouse_contact_desktop.png">
 
 ### Mobile Responsiveness
 I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a> tool to test the mobile responsiveness of each of my web pages.
 
 #### Home Page - Mobile Responsiveness
-<img src="assets/images/readme/code-testing/mobile_responsiveness_home.png">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_home.png">
 
 #### Projects Page - Mobile Responsiveness
-<img src="assets/images/readme/code-testing/mobile_responsiveness_projects.png">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_projects.png">
 
 #### Contact Page - Mobile Responsiveness
-<img src="assets/images/readme/code-testing/mobile_responsiveness_contacts.png">
+<img src="assets/images/read-me-imgs/code-testing/mobile_responsiveness_contacts.png">
 
 ## Device & Browser Testing
 
@@ -352,22 +352,22 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 
 * First I created a folder for my project on my local hard drive and opened it within VS code
 <br>
-<img src="assets/images/readme/github-deployment/local_files.png">
+<img src="assets/images/read-me-imgs/github-deployment/local_files.png">
 <br><br>
 
 * Then I installed GitHub Codespaces into VS Code
 <br>
-<img src="assets/images/readme/github-deployment/codespaces_install.png">
+<img src="assets/images/read-me-imgs/github-deployment/codespaces_install.png">
 <br><br>
 
 * From there I was able to write my first few files. Write my commits and push my work via the interface in source control which provides easy to use commit, push and pull buttons.
 <br>
-<img src="assets/images/readme/github-deployment/source_control.png">
+<img src="assets/images/read-me-imgs/github-deployment/source_control.png">
 <br><br>
 
 * I could then check GitHub was updating with each push as expected. 
 <br>
-<img src="assets/images/readme/github-deployment/github_files.png">
+<img src="assets/images/read-me-imgs/github-deployment/github_files.png">
 <br><br>
 
 * To deploy the project I made my Github depository public under 'Settings' in my GitHub project. Right at the bottom of the page is the 'Danger Zone' I selected 'Change visibility' and set to 'Change to public'.
@@ -379,23 +379,23 @@ I used the <a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsiv
 * From this point on the website has been deployed and will automatically update as I push my commits.
 
 <br>
-<img src="assets/images/readme/github-deployment/github_pages.png">
+<img src="assets/images/read-me-imgs/github-deployment/github_pages.png">
 <br><br>
 
 *  Here is my project deployed in GitHub. I did have some issues with setup at first, then after researching the issue I realised that my project was set to private to I  set it to public. Further issue images not showing and links going to a 404 page, this was resolved by removing the first '/' out of the links. 
 <br>
-<img src="assets/images/readme/github-deployment/github_deploy.png">
+<img src="assets/images/read-me-imgs/github-deployment/github_deploy.png">
 
 #### Test 1
 First deployment was unsuccessful. The index.html (Home) page was loading but the 'Project' and 'Contact' pages were not. I simply removed the '/' from in front of the file paths and tried again which worked.
-<img src="assets/images/readme/code-testing/deployment-to-github.png">
+<img src="assets/images/read-me-imgs/code-testing/deployment-to-github.png">
 
 #### Test 2
 As per above, the second attempt was successful and the website is now successfully deployed. Check it out here:
 
 <a href="https://tambrulee.github.io/portfolio_project/">Click here to view my deployed website in GitHub</a>
 
-<img src="assets/images/readme/code-testing/github-deployed.png">
+<img src="assets/images/read-me-imgs/code-testing/github-deployed.png">
 
 ## Known Bugs
 
