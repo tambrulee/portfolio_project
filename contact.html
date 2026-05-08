@@ -1,164 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <!-- Basic Page Setup -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Hi, I'm Tamsin a junior web developer building clean, creative, and functional websites. Check out my work!">
-    <meta name="keywords" content="web developer, junior developer, frontend developer, portfolio, HTML, CSS, JavaScript, React, GitHub, coding projects, Tamsin Te-Strote">
-    
-    <!-- Page Title -->
-    <title>Tamsin Te-Strote: Contact</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Favicon Setup -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav_icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav_icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav_icon.png">
+  <meta name="description" content="Contact Tamsin Te-Strote — web developer & BI analyst." />
+  <meta name="keywords" content="contact, web developer, BI analyst, Power BI, SQL, Tamsin Te-Strote" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <title>Tamsin Te-Strote | Contact</title>
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav_icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav_icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav_icon.png" />
 
-    <!-- Google Fonts: Bebas Neue -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+    crossorigin="anonymous"
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body>
-  <header>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg custom-navbar">
-        <div class="container-fluid">
-            <!-- Brand Name/Home Link -->
-            <a aria-label="Click here to go back to the homepage" class="navbar-brand" href="index.html">Tamsin Te-Strote</a>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand brand" href="index.html" aria-label="Go to homepage">
+        Tamsin Te-Strote
+      </a>
 
-            <!-- Toggler for Mobile View -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a aria-label="Follow this link to view my projects" 
-                        class="nav-link main-menu-item" href="projects.html">
-                          Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a aria-label="Click here to get in contact" 
-                        class="nav-link active main-menu-item" 
-                        aria-current="page" href="contact.html">
-                          Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-  </header>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item">
+            <a class="btn btn-sm btn-primary ms-lg-2 active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <main>
-    <!-- Contact Section Layout -->
-    <div class="container-fluid">
-      <div class="row hero-contact">
-        
-        <!-- Image Side -->
-        <div class="col-12 col-lg-6 hero-img" id="hero-img-contact"></div>
-
-        <!-- Contact Options Side -->
-        <div class="col-12 col-lg-6" id="hero-text">
-
-          <!-- Accordion Container -->
-          <div class="accordion" id="accordionExample">
-
-            <!-- Accordion Item 1: Work With Me -->
-            <div class="accordion-item">
-              <h2 class="accordion-title">Get in contact</h2>
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Work with me
-              </button>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Looking for a developer to join your team or contribute to a project? Let's talk!</strong> 
-                  <a href="mailto:thamiltontestrote@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <p class="accordion-body">
-                      <i class="fa-solid fa-square-envelope footer-links"></i> Email me
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion Item 2: LinkedIn -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Connect Professionally
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Let’s grow our networks — follow or message me on LinkedIn.</strong> 
-                  <a href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank" rel="noopener noreferrer">
-                    <p class="accordion-body">
-                      <i class="fa-brands fa-linkedin footer-links"></i> LinkedIn
-                    </p> 
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion Item 3: GitHub -->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Check out my work
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>Explore the kind of stuff I build and contribute to on GitHub.</strong> 
-                  <a href="https://github.com/tambrulee" target="_blank">
-                  <p class="accordion-body">
-                    <i class="fa-brands fa-github footer-links"></i> GitHub
-                  </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div> <!-- End of Accordion -->
+  <!-- HEADER -->
+  <header class="section section--tint">
+    <div class="container">
+      <div class="row g-4 align-items-end">
+        <div class="col-12 col-lg-7">
+          <h1 class="display-5 fw-semibold mb-2">Contact</h1>
+          <p class="text-muted mb-0">
+            Whether it’s a web build, BI/dashboard work, or a role — I’m happy to chat.
+          </p>
+          <div class="section-divider"></div>
         </div>
       </div>
     </div>
+  </header>
+
+  <main>
+    <!-- CONTACT CONTENT -->
+    <section class="section leafy-bg">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+
+          <!-- LEFT: Contact options -->
+          <div class="col-12 col-lg-5">
+            <div class="card card-dark p-4 p-lg-5 h-100">
+              <h2 class="h4 mb-2">Get in touch</h2>
+              <p class="text-muted mb-4">
+                The quickest way is email — or connect on LinkedIn if you prefer.
+              </p>
+
+              <div class="d-grid gap-2">
+                <a
+                  class="btn btn-primary"
+                  href="mailto:thamiltontestrote@gmail.com?subject=Hello%20Tamsin%20%E2%80%94%20Portfolio%20Enquiry"
+                  aria-label="Email Tamsin"
+                >
+                  <i class="fa-solid fa-envelope me-2"></i>
+                  Email me
+                </a>
+
+                <a
+                  class="btn btn-outline-dark"
+                  href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit LinkedIn profile"
+                >
+                  <i class="fa-brands fa-linkedin me-2"></i>
+                  Connect on LinkedIn
+                </a>
+
+                <a
+                  class="btn btn-outline-dark"
+                  href="https://github.com/tambrulee"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Visit GitHub profile"
+                >
+                  <i class="fa-brands fa-github me-2"></i>
+                  View GitHub
+                </a>
+              </div>
+
+              <hr class="my-4" />
+
+              <p class="small text-muted mb-2"><strong>Good to know:</strong></p>
+              <ul class="small text-muted ps-3 mb-0">
+                <li>Open to junior dev / BI analyst opportunities</li>
+                <li>Also available for small web builds & dashboards</li>
+                <li>Based in the UK (remote-friendly)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- RIGHT: Simple form (mailto fallback) -->
+          <div class="col-12 col-lg-7">
+            <div class="card card-dark p-4 p-lg-5 h-100">
+              <h2 class="h4 mb-2">Send a message</h2>
+              <p class="text-muted mb-4">
+                This form uses email (so it works anywhere). It’ll open your mail app with the message ready to send.
+              </p>
+
+              <form id="contactForm" class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="name" class="form-label">Your name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your name" required />
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">Your email</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+                </div>
+
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="What’s this about?" required />
+                </div>
+
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="6" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <div class="col-12 d-flex flex-wrap gap-2 align-items-center">
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fa-solid fa-paper-plane me-2"></i>
+                    Open email
+                  </button>
+                  <span class="small text-muted">
+                    Prefer not to use a form? Use the “Email me” button on the left.
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- Footer Section -->
-  <footer class="bg-dark text-white text-center py-3">
-      <p id="footer-text">&copy; 2025 Tamsin Te-Strote</p>
-
-      <!-- Social Icons -->
-      <a aria-label="Visit my LinkedIn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank">
-        <i class="fa-brands fa-linkedin footer-links"></i>
-      </a>
-      <a aria-label="Visit my GitHub Repositories" href="https://github.com/tambrulee" target="_blank">
-        <i class="fa-brands fa-github footer-links"></i>
-      </a>
-      <a aria-label="Click here to send me an email" href="mailto:thamiltontestrote@gmail.com/" target="_blank">
-        <i class="fa-solid fa-square-envelope footer-links"></i>
-      </a>
+  <!-- FOOTER -->
+  <footer class="footer border-top" style="border-color: var(--line) !important;">
+    <div class="container py-4">
+      <div class="row align-items-center g-3">
+        <div class="col-12 col-md">
+          <p class="mb-0 small text-muted">
+            &copy; <span id="year"></span> Tamsin Te-Strote
+          </p>
+        </div>
+        <div class="col-12 col-md-auto">
+          <div class="d-flex gap-2">
+            <a class="icon-btn" href="https://www.linkedin.com/in/tamsin-te-strote-809ab495/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="icon-btn" href="https://github.com/tambrulee" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="icon-btn" href="mailto:thamiltontestrote@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
-  <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"
+  ></script>
 
-  <!-- Font Awesome Icons -->
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/40f053d397.js" crossorigin="anonymous"></script>
 
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mailto form builder (no backend required)
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const subject = document.getElementById("subject").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      const to = "thamiltontestrote@gmail.com";
+      const fullSubject = encodeURIComponent(subject);
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\n${message}`
+      );
+
+      window.location.href = `mailto:${to}?subject=${fullSubject}&body=${body}`;
+    });
+  </script>
 </body>
 </html>
