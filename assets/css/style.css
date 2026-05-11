@@ -123,10 +123,11 @@ body{
 
 /* Cards: bright + “clean stationery” */
 .card-dark{
-  transition:
-    transform .2s ease,
-    box-shadow .2s ease,
-    background .2s ease;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.96), rgba(255,255,255,.78));
+  border: 1px solid rgba(25,40,30,.14);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 50px rgba(25,40,30,.08);
 }
 
 .card-dark:hover{
@@ -195,8 +196,151 @@ body{
   color: var(--accent-2);
 }
 
+/* Projects section */
+
+.projects-hero{
+  min-height: 48vh;
+  display: flex;
+  align-items: end;
+  background:
+    linear-gradient(90deg, rgba(246,245,239,.96) 0%, rgba(246,245,239,.78) 48%, rgba(246,245,239,.28) 100%),
+    url("../images/ridgeline.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.projects-hero h1{
+  font-family: "Bebas Neue", Inter, sans-serif;
+  font-size: clamp(5rem, 10vw, 9rem);
+  line-height: .85;
+  letter-spacing: .02em;
+}
+
+.projects-hero p{
+  max-width: 680px;
+  font-size: 1.15rem;
+}
+
 .project-card hr{
   border-color: rgba(25,40,30,.12);
+}
+
+.project-card{
+  position: relative;
+}
+
+.project-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 30px 90px rgba(20,30,24,.16);
+}
+
+.project-card--featured{
+  position: relative;
+
+  background:
+    radial-gradient(
+      1200px 500px at top right,
+      rgba(255,255,255,.06),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #223126 0%,
+      #2e4132 45%,
+      #435646 100%
+    );
+
+  color: white;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  min-height: 280px;
+
+  box-shadow:
+    0 30px 90px rgba(20,30,24,.18);
+}
+
+.project-card--featured:hover{
+  transform: translateY(-6px);
+  background:
+    radial-gradient(
+      1200px 500px at top right,
+      rgba(255,255,255,.08),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #223126 0%,
+      #344737 45%,
+      #506553 100%
+    );
+
+  box-shadow:
+    0 40px 110px rgba(20,30,24,.22);
+}
+
+.project-card--featured .text-muted{
+  color: rgba(255,255,255,.76) !important;
+}
+
+.project-card--featured .tag{
+  background: rgba(255,255,255,.12);
+  border-color: rgba(255,255,255,.22);
+  color: white;
+}
+
+.project-card--featured.card-dark:hover{
+  background:
+    radial-gradient(
+      1200px 500px at top right,
+      rgba(255,255,255,.08),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #223126 0%,
+      #344737 45%,
+      #506553 100%
+    );
+}
+
+.project-card--featured .btn-outline-dark{
+  color: white;
+  border-color: rgba(255,255,255,.35);
+}
+
+.project-card--featured .btn-outline-dark:hover{
+  background: rgba(255,255,255,.12);
+}
+
+.project-card--featured h3{
+  color: white;
+}
+
+.project-card--featured .text-muted{
+  color: rgba(255,255,255,.78) !important;
+}
+
+.project-card--featured .tag{
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+  color: rgba(255,255,255,.92);
+  backdrop-filter: blur(6px);
+}
+
+.project-card--featured hr{
+  border-color: rgba(255,255,255,.08);
+}
+
+.project-card--featured .btn-outline-dark{
+  color: white;
+  border-color: rgba(255,255,255,.22);
+}
+
+.project-card--featured .btn-outline-dark:hover{
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.3);
 }
 
 .btn-outline-dark{
@@ -291,17 +435,70 @@ body{
   transition: transform .15s ease, background .15s ease;
 }
 
-.chip{
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid rgba(25,40,30,.15);
-  border-radius: 0;
-  padding: 1rem 0;
-  text-align: left;
-  font-weight: 600;
-  font-size: 1rem;
+/* Tech Grid */
+.tech-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
 }
 
+.tech-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: .9rem;
+
+  padding: 1.5rem 1rem;
+
+  background: rgba(255,255,255,.68);
+
+  border: 1px solid rgba(25,40,30,.1);
+
+  border-radius: 1.5rem;
+
+  transition:
+    transform .18s ease,
+    background .18s ease,
+    border-color .18s ease,
+    box-shadow .18s ease;
+}
+
+.tech-item:hover{
+  transform: translateY(-5px);
+
+  background: rgba(255,255,255,.9);
+
+  border-color: rgba(95,117,88,.28);
+
+  box-shadow:
+    0 20px 50px rgba(20,30,24,.08);
+}
+
+.tech-item i{
+  font-size: 2rem;
+  color: var(--accent-2);
+
+  opacity: .92;
+
+  transition:
+    transform .18s ease,
+    opacity .18s ease;
+}
+
+.tech-item:hover i{
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.tech-item span{
+  font-size: .92rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* CTA */
 .cta .btn-outline-light {
   border-color: rgba(25,40,30,.25);
   color: var(--text);
